@@ -1,0 +1,26 @@
+# Entornos virtuales
+.venv/
+venv/
+**/entorno-capstone*/
+**/env*/
+**/.env*/
+**/.virtualenv*/
+.env
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
