@@ -8,42 +8,49 @@ DATASET_PATH = 'data/primeros_auxilios.json'
 # palabras de alta severidad (esto lo pueden cambiar si quieren)
 
 PALABRAS_URGENCIA_ALTA = {
-    # emergencias vitales
-    "acv", "ataque", "infarto", "parocardiaco", "no puedo respirar", "respirar", 
+    # emergencias
+    "acv", "ataque", "infarto", "infartado", "parocardiaco", "no puedo respirar", 
+    "dificultad respirar", "falta aire", "obstrucción", "pulmonar", "respirar", 
     "asfixia", "ahogo", "ahogando", "atragantamiento", "convulsión", "convulsionando", 
     "shock", "emergencia", "urgente", "anafilaxia", "anafiláctico", 
     
-    # muerte
-    "muero", "morir", "muere", "muerte", "moriré", "agonía",
+    # muerte y agonia
+    "muero", "morir", "muere", "muerte", "moriré", "agonía", "moribundo", "muriendo",
 
     # sangrado
-    "sangre", "sangrado", "desangrando", "sangrar", "hemorragia", "amputado",
+    "sangre", "sangrado", "desangrando", "sangrar", "hemorragia", "amputado", "cortado",
+    "hemorragia interna",
     
-    # trauma / golpes 
-    "golpe", "golpee", "golpeado", "fractura", "quebre", "accidente",
-    "lesión", "columna", "cuello", "médula",
+    # trauma/golpes
+    "golpe", "golpee", "golpeado", "fractura", "quebré", "quebrar", "accidente",
+    "lesión", "columna", "craneal", "cabeza grave", "cuello", "médula", "ósea",
     
-    # pérdida de conciencia
+    # pérdida de conciencia 
     "desmayo", "desmayar", "perdio el conocimiento", "inconsciente", "síncope",
+    "inconsciencia", "desvanecer",
     
-    # dolor SEVERO 
-    "terrible", "muchísimo", "pecho", "insoportable",
+    # dolor SEVERO
+    "terrible", "muchísimo", "pecho", "insoportable", "crítico", "gravemente",
+    "quemadura grave",
     
-    # otras cosas graves
+    # intoxicación y peligros externos
     "parto", "grave", "severo", "intenso", "veneno", "envenenamiento", "electrocución",
-    "electrocutado", "rayo", "mordedura", "serpiente"
+    "electrocutado", "rayo", "mordedura", "serpiente", "venenosas", "químicos",
+    "explosión", "quemadura tercer grado"
 }
 
 PALABRAS_URGENCIA_MEDIA = {
-    # dolor general o leve 
-    "dolor", "duele", "cabeza", "dolor de cabeza", "muero",
+    # dolor y malestar común
+    "dolor", "duele", "cabeza", "dolor de cabeza", "punzada", "migraña",
     
-    # malestar general
+    # sintomas generales
     "molestia", "incómodo", "preocupa", "malestar", "leve", "regular", "un poco",
-    "mareo", "náuseas", "fiebre", "tengo tos", "tos", "estornudo", "cansado", 
-    "gripe", "resfriado", "ansiedad", "vomito", "alergia", "picadura", "insecto",
-    "quemadura", "esguince", "distensión", "moretón", "rasguño", "abrasión",
-    "congestión", "garganta", "abdominal", "diarrea"
+    "mareo", "náuseas", "fiebre", "temperatura", "tengo tos", "tos", "estornudo", 
+    "cansado", "gripe", "resfrío", "resfriado", "catarro", "ansiedad", "pánico",
+    "vomito", "vómitos", "alergia", "picadura", "insecto", "erupción", "sarpullido",
+    "quemadura", "esguince", "distensión", "tirón muscular", "torcedura",
+    "moretón", "rasguño", "abrasión", "congestión", "garganta", "abdominal", 
+    "estómago", "diarrea", "indigestión"
 }
 
 # umbral de confianza para considerar "alta confianza" en sentimientos negativos
