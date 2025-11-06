@@ -11,12 +11,15 @@ PALABRAS_URGENCIA_ALTA = {
     # emergencias vitales
     "acv", "ataque", "infarto", "parocardiaco", "no puedo respirar", "respirar", 
     "asfixia", "ahogo", "ahogando", "atragantamiento", "convulsión", "convulsionando", 
-    "shock", "emergencia", "urgente", "anafilaxia", "anafiláctico",
+    "shock", "emergencia", "urgente", "anafilaxia", "anafiláctico", 
+    
+    # muerte
+    "muero", "morir", "muere", "muerte", "moriré", "agonía",
 
     # sangrado
     "sangre", "sangrado", "desangrando", "sangrar", "hemorragia", "amputado",
     
-    # Trauma / Golpes (Mantenemos 'golpe' y 'fractura' como alta)
+    # trauma / golpes 
     "golpe", "golpee", "golpeado", "fractura", "quebre", "accidente",
     "lesión", "columna", "cuello", "médula",
     
@@ -24,7 +27,7 @@ PALABRAS_URGENCIA_ALTA = {
     "desmayo", "desmayar", "perdio el conocimiento", "inconsciente", "síncope",
     
     # dolor SEVERO 
-    "terrible", "muchísimo", "pecho", "insoportable", "agonía",
+    "terrible", "muchísimo", "pecho", "insoportable",
     
     # otras cosas graves
     "parto", "grave", "severo", "intenso", "veneno", "envenenamiento", "electrocución",
@@ -33,7 +36,7 @@ PALABRAS_URGENCIA_ALTA = {
 
 PALABRAS_URGENCIA_MEDIA = {
     # dolor general o leve 
-    "dolor", "duele", "cabeza", "dolor de cabeza",
+    "dolor", "duele", "cabeza", "dolor de cabeza", "muero",
     
     # malestar general
     "molestia", "incómodo", "preocupa", "malestar", "leve", "regular", "un poco",
@@ -45,3 +48,6 @@ PALABRAS_URGENCIA_MEDIA = {
 
 # umbral de confianza para considerar "alta confianza" en sentimientos negativos
 UMBRAL_CONFIANZA_NEG = 0.80
+
+# contactos de emergencia
+CONTACTO_EMERGENCIA_AR = "Llame inmediatamente a la ambulancia (107), policía (911) o bomberos (100)."
