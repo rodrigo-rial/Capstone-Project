@@ -1,3 +1,6 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
 from bot.bot_instance import bot
 from bot import handlers 
 
