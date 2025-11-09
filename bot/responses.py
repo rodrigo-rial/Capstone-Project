@@ -69,7 +69,7 @@ def respuesta_groq(mensaje):
 
     try:
         resp = requests.post(GROQ_API_URL, headers=headers, json=data, timeout=20)
-
+        
         if resp.status_code == 200:
             respuesta = resp.json()['choices'][0]['message']['content']
             return respuesta.strip()

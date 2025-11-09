@@ -2,7 +2,7 @@ from PIL import Image
 from groq import Groq
 import base64
 from config import GROQ_API_KEY
-
+from bot.bot_instance import bot
 
 
 cliente_groq = Groq(api_key=GROQ_API_KEY)
@@ -23,29 +23,38 @@ def imagen_a_base64(ruta_o_bytes_imagen):
 def describir_imagen_con_groq(imagen_base64):
     try:
         completado_chat = cliente_groq.chat.completions.create(
+            model="meta-llama/llama-4-scout-17b-16e-instruct",
             messages=[
                 {
                     "role": "user",
-                    "content":[
+                    "content": [
                         {
-                            "type": "text",
-                            "text": "Por favor, simula que eres un asistente de primeros auxilios y debes sugerir una respuesta en español a la imagen. Sé claro y profesional",
-                            "image_url":{
+                            "type": "image_url",
+                            "image_url": {
                                 "url": f"data:image/jpeg;base64,{imagen_base64}"
                             }
+                        },
+                        {
+                            "type": "text",
+                            "text": (
+                                "Actúa como asistente de primeros auxilios. "
+                                "Describe lo que ves en la imagen y da recomendaciones claras, "
+                                "seguras y en español."
+                            )
                         }
                     ]
                 }
             ],
-            model="meta-llama/llama-4-scout-17b-16e-instruct",
-            temperature=0.7,
-            max_tokens=2000
+            max_tokens=800
         )
+
         return completado_chat.choices[0].message.content
     
     except Exception as e:
         print(f"Error al describir imagen con Groq: {e}")
         return None
+
+
 
 # Manejador de Fotos
 @bot.message_handler(content_types=['photo'])
@@ -57,7 +66,7 @@ def manejar_foto(mensaje):
         archivo_descargado = bot.download_file(info_archivo.file_path)
         imagen_base64 = imagen_a_base64(archivo_descargado)
 
-        if not imagen_a_base64:
+        if not imagen_base64:
             bot.reply_to(mensaje, "Error al procesar la imagen. Intenta de nuevo")
             return
         
