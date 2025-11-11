@@ -1,10 +1,16 @@
 from bot.bot_instance import bot, dataset
 from bot import utils, responses
 from bot import transformer 
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 @bot.message_handler(commands=["start", "help"])
 def send_welcome(message):
-    bot.reply_to(message, "¡Hola!, Soy MediBot, tu asistente de primeros auxilios. ¿Cuál es tu emergencia?")
+    botones = InlineKeyboardMarkup()
+    btn1 = InlineKeyboardButton("Analizar Imagen", callback_data="imagen")
+    btn2 = InlineKeyboardButton("Analizar sentimiento", callback_data="sentimiento")
+    btn3 = InlineKeyboardButton("")
+    botones.add(btn1, btn2)
+    bot.reply_to(message, "¡Hola!, Soy MediBot, tu asistente de primeros auxilios. ¿Cuál es tu emergencia?", reply_markup = botones)
 
 @bot.message_handler(func=lambda message: True)
 def responder(message):
