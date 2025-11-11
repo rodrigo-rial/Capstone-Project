@@ -2,6 +2,7 @@ import datetime
 from bot.bot_instance import bot, dataset, MEMORIA_CONVERSACION
 from bot import utils, responses
 from bot import transformer 
+from bot.voz import transcribir_voz_con_groq 
 from bot.vision import imagen_a_base64, describir_imagen_con_groq
 from bot.responses import respuesta_groq_contextual
 
@@ -22,7 +23,7 @@ def _obtener_contexto(chat_id):
     return None
 
 @bot.message_handler(commands=["start", "help"])
-def send_welcome(message):
+def enviar_bienvenida(message):
     # se borra la memoria si el usuario usa /start o /help
     if message.chat.id in MEMORIA_CONVERSACION:
         del MEMORIA_CONVERSACION[message.chat.id]
@@ -215,3 +216,24 @@ def manejar_foto(mensaje):
     except Exception as e:
         print(f"Error grave al procesar la imagen: {e}")
         bot.reply_to(mensaje, "Ocurrió un error inesperado al procesar tu imagen. El equipo técnico ha sido notificado.")
+
+@bot.message_handler(content_types=['voice'])
+def manejar_voz(message):
+    try:
+        bot.reply_to(message, "🎙️ Entendido. Transcribiendo tu audio, por favor espera...")
+
+        texto_transcrito = transcribir_voz_con_groq(message)
+        
+        if not texto_transcrito:
+            bot.reply_to(message, "Lo siento, no pude entender lo que dijiste en el audio. ¿Puedes intentarlo de nuevo o escribirlo?")
+            return
+
+        bot.reply_to(message, f"_[Has dicho]: {texto_transcrito}_ \n\nProcesando tu consulta...", parse_mode="Markdown")
+
+        message.text = texto_transcrito
+        
+        responder(message) 
+    
+    except Exception as e:
+        print(f"Error grave al procesar el audio: {e}")
+        bot.reply_to(message, "Ocurrió un error inesperado al procesar tu audio.")
