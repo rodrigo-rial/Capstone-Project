@@ -35,6 +35,9 @@ def buscar_en_dataset(pregunta, dataset):
     return mejor_respuesta
 
 def respuesta_groq(mensaje):
+    return respuesta_groq_contextual(mensaje_usuario=mensaje)
+
+def respuesta_groq_contextual(mensaje_usuario, contexto_previo=None):
     if not GROQ_API_KEY or not GROQ_API_URL:
         print("Error: GROQ_API_KEY o GROQ_API_URL no están configuradas.")
         return "[Error de configuración de IA]"
@@ -48,6 +51,7 @@ def respuesta_groq(mensaje):
         "Eres Medibot, un asistente de primeros auxilios. Tu propósito es dar "
         "instrucciones claras y directas sobre cómo manejar una situación médica "
         "mientras llega la ayuda profesional. \n"
+        "CONTEXTO: Fuiste creado para el curso de IA de Samsung por el grupo Coffee&Code (compuesto por Rodrigo, Candela y Zoe).\n\n"
         "REGLAS IMPORTANTES:\n"
         "1. Prioriza la seguridad. Da pasos accionables y simples.\n"
         "2. NUNCA digas 'No soy un doctor' o 'No puedo dar consejo médico'. "
@@ -57,13 +61,20 @@ def respuesta_groq(mensaje):
         "5. NUNCA intentes reemplazar la ayuda profesional. Tu respuesta debe ser "
         "un 'qué hacer ahora mismo'."
     )
-
+    
+    # lista de msjs (esto es para que recuerde el prompt)
+    mensajes = [{"role": "system", "content": SYSTEM_PROMPT}]
+    
+    if contexto_previo:
+        # si hay contexto, se añade como un mensaje 'assistant' (la respuesta anterior del bot) (el bot es assistant :v)
+        mensajes.append({"role": "assistant", "content": contexto_previo})
+        
+    #  se añade el nuevo mensaje del usuario
+    mensajes.append({"role": "user", "content": mensaje_usuario})
+    
     data = {
         "model": "llama-3.3-70b-versatile",
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": mensaje}
-        ],
+        "messages": mensajes,
         "temperature": 0.3
     }
 

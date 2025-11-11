@@ -6,5 +6,7 @@ bot = tlb.TeleBot(TELEGRAM_TOKEN)
 
 dataset = utils.cargar_dataset(DATASET_PATH)
 
+MEMORIA_CONVERSACION = {}
+
 if dataset is None:
     print("Advertencia: Dataset no cargado. El bot dependerá solo de la IA o lógica de emergencia.")
