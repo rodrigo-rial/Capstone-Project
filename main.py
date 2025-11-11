@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 from bot.bot_instance import bot
-from bot import handlers, vision
+from bot import handlers 
 
 if __name__ == "__main__":
     print("Bot de Telegram de Primeros Auxilios iniciado. Esperando mensajes...")

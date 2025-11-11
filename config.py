@@ -1,9 +1,9 @@
 import os
 
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
-GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions'
-DATASET_PATH = 'data/primeros_auxilios.json' 
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '[TELEGRAM_TOKEN]')
+GROQ_API_KEY = os.getenv('GROQ_API_KEY', '[API_KEY]')
+GROQ_API_URL = '[GROQ_URL]'
+DATASET_PATH = 'data/primeros_auxilios.json'
 
 # palabras de alta severidad (esto lo pueden cambiar si quieren)
 
@@ -15,7 +15,7 @@ PALABRAS_URGENCIA_ALTA = {
     "shock", "emergencia", "urgente", "anafilaxia", "anafiláctico", 
     
     # muerte y agonia
-    "muero", "morir", "muere", "muerte", "moriré", "agonía", "moribundo", "muriendo",
+    "muero", "morir", "muere", "muerte", "moriré", "agonía", "moribundo", "muriendo", "agonizando",
 
     # sangrado
     "sangre", "sangrado", "desangrando", "sangrar", "hemorragia", "amputado", "cortado",

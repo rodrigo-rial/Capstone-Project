@@ -80,7 +80,7 @@ def analizar(texto: str) -> dict:
         resultado_sent = ANALIZADOR_SENTIMIENTO(texto)[0]
         sentimiento = resultado_sent['label']
         confianza = resultado_sent['score']
-        print(f"[DEBUG] modelo_label={sentimiento} score={confianza} texto='{texto}'")
+        print(f"[SACAR MAS TARDE (esto es para pruebas)] modelo_label={sentimiento} score={confianza} texto='{texto}'")
     except Exception as e: 
         print(f"Error en pipeline de sentimiento: {e}")
         sentimiento = "N/A"
