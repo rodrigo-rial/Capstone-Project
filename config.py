@@ -1,8 +1,8 @@
 import os
 
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '[TELEGRAM_TOKEN]')
-GROQ_API_KEY = os.getenv('GROQ_API_KEY', '[GROQ_API_KEY]')
-GROQ_API_URL = '[GROQ_API_URL]'
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '')
+GROQ_API_KEY = os.getenv('GROQ_API_KEY', '')
+GROQ_API_URL = ''
 DATASET_PATH = 'data/primeros_auxilios.json' 
 
 # palabras de alta severidad (esto lo pueden cambiar si quieren)
