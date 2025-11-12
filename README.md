@@ -4,12 +4,12 @@ Este bot de telegram brinda asistencia en emergencias médicas. Permite enviar m
 
 ## 📚 Contenidos
 - [Características](#-características)
-- [Instalación](#-instalación)
-- [Uso](#uso)
-- [Configuración](#configuración)
-- [Contribuciones](#contribuciones)
-- [Autores](#autores)
-- [Enlaces útiles](#enlaces-útiles)
+- [Instalación](#%EF%B8%8F-instalación)
+- [Uso](#-uso)
+- [Configuración](#%EF%B8%8F-configuración)
+- [Contribuciones](#-contribuciones)
+- [Autores](#%E2%80%8D-autores)
+- [Enlaces útiles](#-enlaces-útiles)
 
 ## ✨ Características
 MediBot cuenta con 4 funcionalidades importantes
@@ -64,7 +64,7 @@ Para colaborar:
 4. Abrí un Pull Request.
 
 ## 👨‍💻 Autores
-**Medibot** es parte del Proyecto Capstone del *Samsung Innovation Campus*, en alianza con *Fundación Mirogr* y alianza técnica con *Asociación Conciencia*.  
+**Medibot** es parte del Proyecto Capstone del *Samsung Innovation Campus*, en alianza con *Fundación Mirgor* y alianza técnica con *Asociación Conciencia*.  
 Dicho proyecto fue desarrollado por los siguientes integrantes del grupo **Coffee&Code**:
 - Escobar Zoe
 - Mazza Candela
