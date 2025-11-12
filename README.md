@@ -5,11 +5,11 @@ Este bot de telegram brinda asistencia en emergencias médicas. Permite enviar m
 ## 📚 Contenidos
 - [Características](#-características)
 - [Instalación](#-instalación)
-- [Uso](#-uso)
-- [Configuración](#-configuración)
-- [Contribuciones](#-contribuciones)
-- [Autores](#-autores)
-- [Enlaces útiles](#-enlaces-útiles)
+- [Uso](#uso)
+- [Configuración](#configuración)
+- [Contribuciones](#contribuciones)
+- [Autores](#autores)
+- [Enlaces útiles](#enlaces-útiles)
 
 ## ✨ Características
 MediBot cuenta con 4 funcionalidades importantes
