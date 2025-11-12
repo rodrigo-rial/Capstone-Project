@@ -40,10 +40,10 @@ python main.py
 
 ## Uso
 Una vez iniciado el bot, envia:
-- '/texto' -> para describir una emergencia
-- '/audio' -> para enviar un mensaje de voz
-- '/imagen' -> para analizar una lesión via foto
-- '/sentimientos' -> para detectar sentimientos a través del mensaje
+- /texto -> para describir una emergencia
+- /audio -> para enviar un mensaje de voz
+- /imagen -> para analizar una lesión via foto
+- /sentimientos -> para detectar sentimientos a través del mensaje  
 O simplemente podrás hablar libremente con el bot sin necesidad de comandos. Tambíen cuenta con un menú de botones interactivos para mejor usabilidad
 
 ## Configuración
