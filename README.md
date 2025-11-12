@@ -1,6 +1,6 @@
 # 🩺 MediBot - Bot de Emergencias Médicas
 
-Este bot de telegram brinda asistencia en emergencias médicas. Permite enviar mensajes de texto, audio o imágenes, y responde con primeros auxilios básicos hasta que llegue ayuda profesional
+Este bot de telegram brinda asistencia en emergencias médicas. Permite enviar mensajes de texto, audio o imágenes, y responde con primeros auxilios básicos hasta que llegue ayuda profesional.
 
 - [Características](#-características)
 - [Instalación](#-instalación)
@@ -40,15 +40,29 @@ python main.py
 
 ## Uso
 Una vez iniciado el bot, envia:
-- /texto -> para describir una emergencia
-- /audio -> para enviar un mensaje de voz
-- /imagen -> para analizar una lesión via foto
-- /sentimientos -> para detectar sentimientos a través del mensaje  
-O simplemente podrás hablar libremente con el bot sin necesidad de comandos. Tambíen cuenta con un menú de botones interactivos para mejor usabilidad
+- /texto -> para describir una emergencia.
+- /audio -> para enviar un mensaje de voz.
+- /imagen -> para analizar una lesión via foto.
+- /sentimientos -> para detectar sentimientos a través del mensaje.  
+O simplemente podrás hablar libremente con el bot sin necesidad de comandos. Tambíen cuenta con un menú de botones interactivos para mejor usabilidad.
 
 ## Configuración
+Este proyecto utiliza variables de entorno en un archivo *.env*:
+- TELEGRAM_TOKEN : Token del bot de Telegram
+- GROQ_API_KEY : Clave para procesamiento de lenguaje
 
 
 ## Contribuciones
+¡Las contribuciones son bienvenidas!
+Para colaborar:
+1. Hacé un fork del repositorio
+2. Creá una rama (git checkout -b feature/nueva-funcionalidad).
+3. Subí tus cambios (git push origin feature/nueva-funcionalidad).
+4. Abrí un Pull Request.
 
 ## Autores
+**Medibot** es parte del Proyecto Capstone del *Samsung Innovation Campus*, en alianza con *Fundación Mirogr* y alianza técnica con *Asociación Conciencia*.  
+Dicho proyecto fue desarrollado por los siguientes integrantes del grupo **Coffee&Code**:
+- Escobar Zoe
+- Mazza Candela
+- Rial Rodrigo
