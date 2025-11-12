@@ -8,7 +8,7 @@ Este bot de telegram brinda asistencia en emergencias médicas. Permite enviar m
 - [Uso](#-uso)
 - [Configuración](#-configuración)
 - [Contribuciones](#-contribuciones)
-- [👨Autores](#-autores)
+- [Autores](#-autores)
 - [Enlaces útiles](#-enlaces-útiles)
 
 ## ✨ Características
