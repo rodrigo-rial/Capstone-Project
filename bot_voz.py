@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 #Cargar variables de entorno
 load_dotenv()
 
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '') 
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', "") 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "") 
 GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions' 
 DATASET_PATH = 'primeros_auxilios.json'
@@ -21,15 +21,15 @@ if not TELEGRAM_TOKEN:
 if not GROQ_API_KEY:
     raise ValueError("Porfavor, vuelva a intentar.")
 
-# === Inicializar bot y cliente Groq ===
+#Inicializar bot y cliente Groq 
 bot = tbl.TeleBot(TELEGRAM_TOKEN)
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 
-# === Cargar dataset JSON ===
+#Cargar dataset JSON
 def load_company_data():
     try:
-        with open("entorno-bot-voz/primeros_auxilios.json", "r", encoding="utf-8") as f:
+        with open("primeros_auxilios.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
         print(f"⚠️ Error al cargar el JSON: {str(e)}")
@@ -39,7 +39,7 @@ def load_company_data():
 company_data = load_company_data()
 
 
-# === Obtener respuesta del modelo (versión optimizada) ===
+#Obtener respuesta del modelo (versión optimizada)
 def get_groq_response(user_message: str) -> Optional[str]:
     try:
         # Buscar coincidencia más cercana en el dataset
@@ -97,7 +97,7 @@ Reglas:
         return None
 
 
-# === Transcripción de audio con Groq ===
+#Transcripción de audio con Groq
 def transcribe_voice_with_groq(message: tbl.types.Message) -> Optional[str]:
     try:
         file_info = bot.get_file(message.voice.file_id)
@@ -118,14 +118,14 @@ def transcribe_voice_with_groq(message: tbl.types.Message) -> Optional[str]:
             )
 
         os.remove(temp_file)
-        return transcription.text  # ✅ antes era transcription["text"], corregido
+        return transcription.text 
 
     except Exception as e:
         print(f"⚠️ Error al transcribir: {str(e)}")
         return None
 
 
-# === Comando /start ===
+#Comando start/help
 @bot.message_handler(commands=["start", "help"])
 def send_welcome(message: tbl.types.Message):
     if not company_data:
@@ -135,11 +135,11 @@ def send_welcome(message: tbl.types.Message):
     bot.reply_to(
         message,
         "👋 ¡Hola! Soy el asistente de primeros auxilios. "
-        "Enviame un mensaje de voz o texto y te ayudaré con orientación básica 🩹.",
+        "Enviame un mensaje de voz o texto  y te ayudaré con orientación básica 🩹.",
     )
 
 
-# === Manejar texto ===
+#Manejar texto
 @bot.message_handler(content_types=["text"])
 def handle_text_message(message: tbl.types.Message):
     if not company_data:
@@ -159,7 +159,7 @@ def handle_text_message(message: tbl.types.Message):
         )
 
 
-# === Manejar voz ===
+#Manejar voz
 @bot.message_handler(content_types=["voice"])
 def handle_voice_message(message: tbl.types.Message):
     if not company_data:
@@ -180,10 +180,10 @@ def handle_voice_message(message: tbl.types.Message):
         bot.reply_to(message, "⚠️ Error al transcribir el audio. Intenta nuevamente.")
 
 
-# === Ejecutar bot ===
+#Ejecutar bot
 if __name__ == "__main__":
     if company_data:
-        print("🤖 Bot de primeros auxilios iniciado correctamente con Groq y Whisper ✅")
+        print("🤖 MediBOT Bot de primeros auxilios iniciado correctamente✅")
         while True:
             try:
                 bot.polling(none_stop=True, interval=0, timeout=20)
