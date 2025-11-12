@@ -2,7 +2,7 @@ import telebot as tlb
 from config import TELEGRAM_TOKEN, DATASET_PATH
 from bot import utils
 
-bot = tlb.TeleBot(TELEGRAM_TOKEN)
+bot = tlb.TeleBot(TELEGRAM_TOKEN, parse_mode="Markdown")
 
 dataset = utils.cargar_dataset(DATASET_PATH)
 

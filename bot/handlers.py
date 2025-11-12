@@ -5,6 +5,7 @@ from bot import transformer
 from bot.voz import transcribir_voz_con_groq 
 from bot.vision import imagen_a_base64, describir_imagen_con_groq
 from bot.responses import respuesta_groq_contextual
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 TIEMPO_LIMITE_CONTEXTO = 300 #5min
 
@@ -22,12 +23,129 @@ def _obtener_contexto(chat_id):
         return contexto['respuesta_bot']
     return None
 
-@bot.message_handler(commands=["start", "help"])
+@bot.message_handler(commands=["start"])
 def enviar_bienvenida(message):
     # se borra la memoria si el usuario usa /start o /help
     if message.chat.id in MEMORIA_CONVERSACION:
         del MEMORIA_CONVERSACION[message.chat.id]
-    bot.reply_to(message, "¡Hola!, Soy MediBot, tu asistente de primeros auxilios. ¿Cuál es tu emergencia?")
+
+    # Creamos botones y los agregamos al mensaje de bienvenida
+    botones = InlineKeyboardMarkup()
+    btn1 = InlineKeyboardButton("Analizar texto", callback_data="texto")
+    btn2 = InlineKeyboardButton("Analizar voz", callback_data="voz")
+    btn3 = InlineKeyboardButton("Analizar imagen", callback_data="imagen")
+    btn4 = InlineKeyboardButton("Analizar Sentimiento", callback_data="sentimiento")
+    btn5 = InlineKeyboardButton("🛈 Acerca de mi", callback_data="acerca")
+    btn6 = InlineKeyboardButton("Ayuda", callback_data="ayuda")
+    botones.add(btn1, btn2, btn3, btn4, btn5, btn6)
+    bot.reply_to(message, "🤖 ¡Hola!, Soy MediBot, tu asistente de primeros auxilios. ¿Cuál es tu emergencia?", reply_markup = botones)
+
+# Manejador de botones
+@bot.callback_query_handler(func=lambda call:True)
+def callback(call):
+    bot.answer_callback_query(call.id)
+
+    # Opción texto
+    if call.data == "texto":    
+        bot.send_message(
+            call.message.chat.id,
+            "*TEXTO* \n\n"
+            "🩺 Contame por *texto* tu emergencia y te brindo la información necesaria para actuar correctamente hasta que llegue ayuda profesional! "
+        )
+        
+    elif call.data == "voz":
+        bot.send_message(
+            call.message.chat.id,
+            "*AUDIO* \n\n"
+            "🎙️ Por favor, enviá un *audio* contando tu emergencia. Con esa información voy a guiarte paso a paso con las indicaciones de primeros auxilios más adecuadas."
+        )
+            
+    elif call.data == "imagen":
+        bot.send_message(
+            call.message.chat.id,
+            "*IMAGEN* \n\n"
+            "📸 Enviá una *imagen clara* de la herida o la zona afectada. Con esa información puedo analizarla y orientarte sobre el tipo de lesión y los primeros auxilios recomendados."
+        )
+            
+    elif call.data == "sentimiento":
+        bot.send_message(
+            call.message.chat.id,
+            "*SENTIMIENTOS* \n\n"
+            "🧠 Enviá un *mensaje de voz o texto* contándome cómo te sentís, así puedo analizar tu tono emocional y ofrecerte orientación o contención si lo necesitás."
+        )
+            
+    elif call.data == "acerca":
+        bot.send_message(
+            call.message.chat.id,
+            "*ACERCA DE MI* \n\n"
+            "🤖 Soy *MediBot*, tu asistente de primeros auxilios desarrollado por el equipo *Coffe&Code* del *Samsung Innovation Campus*. Estoy diseñado para orientarte ante emergencias leves, brindando información rápida y confiable. 🚑"
+        )
+
+    elif call.data == "ayuda":
+        bot.send_message(
+            call.message.chat.id,
+            "ℹ️ Puedo ayudarte de distintas formas:\n\n"
+            "- 📄 Recibir emergencias por texto.\n"
+            "- 🎙️ Analizar audios para guiarte paso a paso.\n"
+            "- 📸 Identificar heridas mediante imágenes.\n"
+            "- 💬 Analizar el tono emocional de tu mensaje.\n\n"
+            "Podés reiniciar la conversación en cualquier momento enviando */start*.\n\n"
+            "*Comandos*\n"
+            "- */texto*\n"
+            "- */imagen*\n"
+            "- */sentimientos*\n"
+            "- */ayuda* o */help*"
+        )
+
+        
+# Manejador para comandos de ayuda
+@bot.message_handler(commands=["texto", "audio", "imagen", "sentimientos", "ayuda", "help"])
+def enviar_ayuda(message):
+    comando = message.text.lower()
+    if comando == "/texto":
+        bot.reply_to(
+            message,
+            "*TEXTO* \n\n"
+            "🩺 Contame por *texto* tu emergencia y te brindo la información necesaria para actuar correctamente hasta que llegue ayuda profesional! "
+        )    
+    
+    elif comando == "/audio":
+        bot.reply_to(
+            message,
+            "*AUDIO* \n\n"
+            "🎙️ Por favor, enviá un *audio* contando tu emergencia. Con esa información voy a guiarte paso a paso con las indicaciones de primeros auxilios más adecuadas."
+        )
+            
+    elif comando == "/imagen":
+        bot.reply_to(
+            message,
+            "*IMAGEN* \n\n"
+            "📸 Enviá una *imagen clara* de la herida o la zona afectada. Con esa información puedo analizarla y orientarte sobre el tipo de lesión y los primeros auxilios recomendados."
+        )
+            
+    elif comando == "/sentimientos":
+        bot.reply_to(
+            message,
+            "*SENTIMIENTOS* \n\n"
+            "🧠 Enviá un *mensaje de voz o texto* contándome cómo te sentís, así puedo analizar tu tono emocional y ofrecerte orientación o contención si lo necesitás."
+        )
+        
+    elif comando in ["/ayuda", "/help"]:
+        bot.reply_to(
+            message,
+            "ℹ️ Puedo ayudarte de distintas formas:\n\n"
+            "- 📄 Recibir emergencias por texto.\n"
+            "- 🎙️ Analizar audios para guiarte paso a paso.\n"
+            "- 📸 Identificar heridas mediante imágenes.\n"
+            "- 💬 Analizar el tono emocional de tu mensaje.\n\n"
+            "Podés reiniciar la conversación en cualquier momento enviando */start*.\n\n"
+            "*Comandos*\n"
+            "- */texto*\n"
+            "- */imagen*\n"
+            "- */sentimientos*\n"
+            "- */ayuda* o */help*"
+        )
+    
 
 @bot.message_handler(func=lambda message: True)
 def responder(message):
