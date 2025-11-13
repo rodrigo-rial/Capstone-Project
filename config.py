@@ -1,7 +1,7 @@
 import os
 
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '[TELEGRAM_TOKEN]')
+GROQ_API_KEY = os.getenv('GROQ_API_KEY', '[GROQ_API_KEY]')
 GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions'
 DATASET_PATH = 'data/primeros_auxilios.json'
 
