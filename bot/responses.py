@@ -1,38 +1,44 @@
 import requests
 from config import GROQ_API_KEY, GROQ_API_URL
+from rapidfuzz import fuzz
 
-# stopwords (asi la busqueda en el dataset es mas especifica)
-STOPWORDS = {
-    "me", "se", "te", "le", "lo", "la", "el", "los", "las", "un", "una",
-    "qué", "que", "como", "cómo", "dónde", "cuando", "por", "para", "con",
-    "sin", "sobre", "de", "desde", "mi", "tu", "su", "tengo", "tienes",
-    "estoy", "esta", "soy", "eres", "es", "somos", "son", "fue", "fui",
-    "a", "o", "y", "del", "al", "mucho", "poco", "muy", "en", "si", "no"
-}
+STOP_WORDS = set([
+    "a", "al", "algo", "alguien", "alguno", "ante", "antes", "como", "con", 
+    "contra", "cual", "cuando", "de", "del", "desde", "donde", "durante", 
+    "e", "el", "ella", "ellas", "ello", "ellos", "en", "entre", "era", "es", 
+    "esa", "ese", "eso", "esta", "estas", "este", "esto", "fue", "ha", "hace", 
+    "hacer", "hacerle", "como", "cómo", "le", "tengo", "tienes", "tiene", "hasta", "hay", 
+    "la", "las", "le", "les", "lo", "los", "me", "mi", "mis", "mucho", "muy", 
+    "no", "nos", "nosotros", "o", "para", "pero", "por", "porque", "pues", 
+    "que", "qué", "se", "sea", "sean", "ser", "si", "sí", "sin", "sino", 
+    "sobre", "su", "sus", "te", "tu", "tus", "un", "una", "unas", "uno", "unos", 
+    "y", "ya", "yo", "si", "siento", "estoy", "creo", "puedo"
+])
+
+def _limpiar_texto(texto: str) -> str:
+    texto_limpio = ''.join(c for c in texto.lower() if c.isalnum() or c.isspace())
+    tokens = [token for token in texto_limpio.split() if token not in STOP_WORDS]
+    return " ".join(tokens)
 
 def buscar_en_dataset(pregunta, dataset):
-    pregunta_lower = pregunta.lower()
-    palabras_usuario = set(palabra.strip(",.¿?¡!") for palabra in pregunta_lower.split() if palabra not in STOPWORDS)
-    
-    if not palabras_usuario or dataset is None:
-        return None
-
     mejor_respuesta = None
-    max_coincidencias = 0
+    mejor_similitud = 0
+    
+    pregunta_limpia = _limpiar_texto(pregunta)
 
     for item in dataset:
-        pregunta_dataset_lower = item.get('pregunta', '').lower()
-        coincidencias_actuales = 0
-        
-        for palabra_clave in palabras_usuario:
-            if palabra_clave in pregunta_dataset_lower.split():
-                coincidencias_actuales += 1
-        
-        if coincidencias_actuales > max_coincidencias:
-            max_coincidencias = coincidencias_actuales
-            mejor_respuesta = item.get('respuesta')
+        pregunta_dataset = item.get("pregunta", "")
+        pregunta_dataset_limpia = _limpiar_texto(pregunta_dataset)
+        similitud = fuzz.token_set_ratio(pregunta_limpia, pregunta_dataset_limpia)
 
-    return mejor_respuesta
+        if similitud > mejor_similitud:
+            mejor_similitud = similitud
+            mejor_respuesta = item.get("respuesta")
+
+    if mejor_similitud >= 85:
+        return mejor_respuesta
+
+    return None
 
 def respuesta_groq(mensaje):
     return respuesta_groq_contextual(mensaje_usuario=mensaje)
@@ -62,14 +68,11 @@ def respuesta_groq_contextual(mensaje_usuario, contexto_previo=None):
         "un 'qué hacer ahora mismo'."
     )
     
-    # lista de msjs (esto es para que recuerde el prompt)
     mensajes = [{"role": "system", "content": SYSTEM_PROMPT}]
     
     if contexto_previo:
-        # si hay contexto, se añade como un mensaje 'assistant' (la respuesta anterior del bot) (el bot es assistant :v)
         mensajes.append({"role": "assistant", "content": contexto_previo})
         
-    #  se añade el nuevo mensaje del usuario
     mensajes.append({"role": "user", "content": mensaje_usuario})
     
     data = {

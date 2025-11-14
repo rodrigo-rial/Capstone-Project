@@ -12,11 +12,12 @@ Este bot de telegram brinda asistencia en emergencias médicas. Permite enviar m
 - [Enlaces útiles](#-enlaces-útiles)
 
 ## ✨ Características
-MediBot cuenta con 4 funcionalidades importantes
+MediBot cuenta con 5 funcionalidades importantes
 - Procesa texto
 - Procesa mensajes de voz
 - Procesa imágenes
 - Detecta el tono del mensaje enviado y analiza el sentimiento demostrado
+- **Localizador de DEA:** Utiliza la ubicación del usuario para encontrar el Desfibrilador Externo Automático (DEA) verificado más cercano a través de una base de datos externa
 
 A partir de la información brindada mediante texto, audio o imágenes, MediBot brinda instrucciones a seguir para poder actuar correctamente frente a emergencias.
 
@@ -47,13 +48,14 @@ Una vez iniciado el bot, envia:
 - /audio -> para enviar un mensaje de voz.
 - /imagen -> para analizar una lesión via foto.
 - /sentimientos -> para detectar sentimientos a través del mensaje.  
+- **/dea -> para encontrar el Desfibrilador Externo Automático (DEA) más cercano.**
 O simplemente podrás hablar libremente con el bot sin necesidad de comandos. Tambíen cuenta con un menú de botones interactivos para mejor usabilidad.
 
 ## 🛠️ Configuración
 Este proyecto utiliza variables de entorno en un archivo *.env*:
 - TELEGRAM_TOKEN : Token del bot de Telegram
 - GROQ_API_KEY : Clave para procesamiento de lenguaje
-
+- URL_API_DEA : URL del servicio web (AWS API Gateway/Lambda) que usamos para la busqueda de DEAs
 
 ## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas!

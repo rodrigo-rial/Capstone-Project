@@ -1,5 +1,3 @@
-# bot/voz.py
-
 import os
 from groq import Groq
 from typing import Optional
