@@ -34,12 +34,18 @@ def enviar_bienvenida(message):
 
     botones = InlineKeyboardMarkup()
     btn1 = InlineKeyboardButton("Analizar texto", callback_data="texto")
-    btn2 = InlineKeyboardButton("Analizar voz", callback_data="voz")
+    btn2 = InlineKeyboardButton("Analizar voz\n", callback_data="voz")
     btn3 = InlineKeyboardButton("Analizar imagen", callback_data="imagen")
-    btn4 = InlineKeyboardButton("Analizar Sentimiento", callback_data="sentimiento")
-    btn5 = InlineKeyboardButton("🛈 Acerca de mi", callback_data="acerca")
-    btn6 = InlineKeyboardButton("Ayuda", callback_data="ayuda")
-    botones.add(btn1, btn2, btn3, btn4, btn5, btn6)
+    btn4 = InlineKeyboardButton("Analizar Sentimiento\n", callback_data="sentimiento")
+    btn5 = InlineKeyboardButton("DEAs cercanos", callback_data="dea")
+    btn6 = InlineKeyboardButton("🛈 Acerca de mi\n", callback_data="acerca")
+    btn7 = InlineKeyboardButton("Ayuda", callback_data="ayuda")
+
+    botones.row(btn1, btn2)
+    botones.row(btn3, btn4)
+    botones.row(btn5, btn6)
+    botones.row(btn7)
+
     bot.reply_to(message, "🤖 ¡Hola!, Soy MediBot, tu asistente de primeros auxilios. ¿Cuál es tu emergencia?", reply_markup = botones)
 
 @bot.callback_query_handler(func=lambda call:True)
@@ -70,6 +76,9 @@ def callback(call):
             
     elif call.data == "sentimiento":
         manejar_comando_sentimientos(call.message, desde_callback=True) 
+
+    elif call.data == "dea":
+        pedir_ubicacion_dea(call.message)
             
     elif call.data == "acerca":
         bot.send_message(
@@ -79,7 +88,10 @@ def callback(call):
         )
 
     elif call.data == "ayuda":
-        enviar_ayuda(call.message)
+        # Creamos un mensaje falso para que la función lo procese
+        fake = call.message
+        fake.text = "/ayuda"
+        enviar_ayuda(fake)
 
 @bot.message_handler(commands=["dea", "desfibrilador"])
 def pedir_ubicacion_dea(message):
@@ -88,13 +100,12 @@ def pedir_ubicacion_dea(message):
     markup_reply.add(boton_ubicacion)
     
     markup_inline = types.InlineKeyboardMarkup()
-    btn_registrar = types.InlineKeyboardButton("Registrar un nuevo DEA ➕", url="https://docs.google.com/forms/d/e/1FAIpQLSfovRZj341Dgq3rcoqyyal79DRmgN6BedNLIyjsyJePhQh4fg/viewform")
+    btn_registrar = types.InlineKeyboardButton("Registrar un nuevo DEA ➕", url="https://forms.gle/HZnwXW7ktdxF95wB7")
     markup_inline.add(btn_registrar)
     
     bot.reply_to(message, 
         "Entendido. Para encontrar el DEA verificado más cercano, necesito tu ubicación actual (usa el botón de abajo).\n\n"
-        "Si conoces un DEA que no está en el mapa, ¡ayúdanos a registrarlo! Utilizamos los datos\n"
-        "de la fundación UDEC para apoyarnos en este proyecto.",
+        "Si conoces un DEA que no está en el mapa, ¡ayúdanos a registrarlo!⬇️",
         reply_markup=markup_inline
     )
     
@@ -118,11 +129,12 @@ def enviar_ayuda(message):
         "- */imagen*\n"
         "- */sentimientos*\n"
         "- */dea*\n"
-        "- */ayuda* o */help*"
+        "- */ayuda* o */help*\n\n"
+        "Si tenés información sobre algún DEA cercano, ¡Podes aportar información en el siguiente botón!⬇️"
     )
     
     markup = types.InlineKeyboardMarkup()
-    btn_registrar_dea = types.InlineKeyboardButton("Registrar un nuevo DEA ➕", url="https://docs.google.com/forms/d/e/1FAIpQLSfovRZj341Dgq3rcoqyyal79DRmgN6BedNLIyjsyJePhQh4fg/viewform")
+    btn_registrar_dea = types.InlineKeyboardButton("Registrar un nuevo DEA ➕", url="https://forms.gle/HZnwXW7ktdxF95wB7")
     markup.add(btn_registrar_dea)
 
     if comando == "/texto":
@@ -160,7 +172,7 @@ def manejar_ubicacion_dea(message):
     chat_id = message.chat.id
 
     markup_remove = types.ReplyKeyboardRemove()
-    bot.send_message(chat_id, "Buscando DEA verificado más cercano en la base de datos de AWS...", reply_markup=markup_remove)
+    bot.send_message(chat_id, "Buscando DEA verificado más cercano...", reply_markup=markup_remove)
     bot.send_chat_action(chat_id, 'typing')
 
     parametros = {'lat': lat_usuario, 'lon': lon_usuario}
@@ -220,7 +232,7 @@ def manejar_comando_sentimientos(message, desde_callback=False):
     texto_respuesta = (
         "*SENTIMIENTOS* \n\n"
         "🧠 Entendido. Enviá tu próximo *mensaje de voz o texto*.\n\n"
-        "_(Lo analizaré por su tono emocional **y también** por cualquier emergencia)._"
+        "(Lo analizaré por su tono emocional **y también** por cualquier emergencia)."
     )
     
     if desde_callback:
