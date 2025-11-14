@@ -104,7 +104,9 @@ def pedir_ubicacion_dea(message):
     markup_inline.add(btn_registrar)
     
     bot.reply_to(message, 
-        "Entendido. Para encontrar el DEA verificado más cercano, necesito tu ubicación actual (usa el botón de abajo).\n\n"
+        "Entendido. Para encontrar el DEA verificado más cercano, necesito tu ubicación actual.\n"
+        "⚠️ Importante: Telegram Desktop no permite compartir ubicación. Para usar esta función, abrí el bot desde tu celular.\n\n"
+
         "Si conoces un DEA que no está en el mapa, ¡ayúdanos a registrarlo!⬇️",
         reply_markup=markup_inline
     )
