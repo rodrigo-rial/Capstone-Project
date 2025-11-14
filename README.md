@@ -48,7 +48,8 @@ Una vez iniciado el bot, envia:
 - /audio -> para enviar un mensaje de voz.
 - /imagen -> para analizar una lesión via foto.
 - /sentimientos -> para detectar sentimientos a través del mensaje.  
-- **/dea -> para encontrar el Desfibrilador Externo Automático (DEA) más cercano.**
+- **/dea -> para encontrar el Desfibrilador Externo Automático (DEA) más cercano.**  
+
 O simplemente podrás hablar libremente con el bot sin necesidad de comandos. Tambíen cuenta con un menú de botones interactivos para mejor usabilidad.
 
 ## 🛠️ Configuración
@@ -63,7 +64,9 @@ Para colaborar:
 1. Hacé un fork del repositorio
 2. Creá una rama (git checkout -b feature/nueva-funcionalidad).
 3. Subí tus cambios (git push origin feature/nueva-funcionalidad).
-4. Abrí un Pull Request.
+4. Abrí un Pull Request.  
+
+También podes contribuir con ubicaciones donde se encuentren DEAs verificados: https://forms.gle/HZnwXW7ktdxF95wB7
 
 ## 👨‍💻 Autores
 **Medibot** es parte del Proyecto Capstone del *Samsung Innovation Campus*, en alianza con *Fundación Mirgor* y alianza técnica con *Asociación Conciencia*.  
