@@ -49,6 +49,10 @@ Una vez iniciado el bot, envia:
 - /imagen -> para analizar una lesión via foto.
 - /sentimientos -> para detectar sentimientos a través del mensaje.  
 - **/dea -> para encontrar el Desfibrilador Externo Automático (DEA) más cercano.**  
+⚠️ Debido a restricciones de acceso por parte de Telegram Desktop, ésta última funcionalidad se encuentra en sevicio en la aplicación móvil
+
+
+
 
 O simplemente podrás hablar libremente con el bot sin necesidad de comandos. Tambíen cuenta con un menú de botones interactivos para mejor usabilidad.
 
