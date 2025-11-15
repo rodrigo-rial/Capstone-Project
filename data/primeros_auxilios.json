@@ -1,0 +1,846 @@
+[
+  {
+    "pregunta": "¿Qué hacer si alguien sufre una hemorragia leve en la piel?",
+    "respuesta": "Presiona firmemente con una gasa o paño limpio sobre la herida hasta que pare el sangrado. Lava alrededor con agua y jabón suave cuando deje de sangrar. Cubre con una gasa o vendaje limpio. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una hemorragia abundante en una extremidad?",
+    "respuesta": "Presiona fuerte y directo sobre la herida con una gasa o paño limpio. Mantén presión continua y eleva la extremidad si no hay fractura. Si sangra mucho, pide ayuda de emergencia inmediatamente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer con una hemorragia nasal (epistaxis)?",
+    "respuesta": "Inclina la cabeza ligeramente hacia adelante y aprieta la parte blanda de la nariz durante 10–15 minutos. Respira por la boca, evita inclinar la cabeza hacia atrás. Si persiste o hay dificultad para respirar, busca ayuda médica. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un bebé tiene sangrado nasal?",
+    "respuesta": "Mantén al bebé sentado o semiincorporado, sujeta la cabeza con cuidado, aprieta la parte blanda de la nariz durante 10 minutos. No inclinar hacia atrás ni meter objetos en la nariz. Si no para, consulta con urgencia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo tratar una pequeña cortada que no deja de sangrar?",
+    "respuesta": "Presiona con una compresa limpia por al menos 10 minutos sin mirar. Si continúa, busca atención médica para sutura o revisión. Mantén la zona limpia y cubierta después. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer ante una quemadura leve (primer grado)?",
+    "respuesta": "Enfría la zona con agua corriente templada durante 10 minutos. No uses hielo ni pomadas caseras. Cubre con una gasa limpia y seca. Observa por signos de infección. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer ante una quemadura con ampollas (segundo grado)?",
+    "respuesta": "Enfría con agua corriente 10–20 minutos. No revientes las ampollas. Protege con una gasa estéril sin apretar. Busca atención si la quemadura es grande, en cara, manos, genitales o articula. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un bebé se quema con agua caliente?",
+    "respuesta": "Enfría la zona con agua corriente tibia por 10 minutos, quita ropa que no esté pegada. No apliques cremas ni remedios caseros. Busca atención médica urgente si la superficie es grande o afecta cara/manos/genitales. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien está electrocutado?",
+    "respuesta": "No toques a la persona mientras esté en contacto con la fuente eléctrica. Corta la corriente si es seguro o usa material aislante para separar. Cuando sea seguro, valora respiración y pulso; realiza RCP si es necesario y pide ayuda urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura química?",
+    "respuesta": "Retira ropa contaminada y enjuaga la zona con abundante agua durante al menos 20 minutos. Evita neutralizantes caseros. Busca atención médica urgente y lleva el envase del producto si es posible. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si hay una fractura sospechada en un brazo?",
+    "respuesta": "Inmoviliza el brazo con una férula o con una almohada, evitando mover la fractura. Aplica compresas frías alrededor (no directamente sobre la piel) para reducir hinchazón y controla sangrados si los hay. Traslada con ayuda a urgencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una fractura de pierna que impide caminar?",
+    "respuesta": "No intentes mover mucho a la persona. Inmoviliza la pierna con férulas improvisadas y evita que soporte peso. Controla sangrados y cubre con manta para mantener calor. Llama a emergencias o traslada con ayuda especializada. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si sospechas una fractura de columna vertebral?",
+    "respuesta": "No muevas a la persona salvo que exista peligro inminente. Mantén la cabeza y cuello alineados y pide ayuda de emergencias. Controla respiración y pulso; realiza RCP si es necesario. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una esguince de tobillo?",
+    "respuesta": "Descansa, aplica hielo envuelto en paño 10–15 minutos cada 1–2 horas las primeras 48 horas, comprime con venda elástica sin cortar la circulación y eleva el pie. Evita poner peso hasta valorar dolor. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si algo está clavado en una herida (objeto penetrante)?",
+    "respuesta": "No extraigas el objeto. Estabilízalo con vendajes alrededor para evitar movimiento y controla sangrado ejerciendo presión alrededor (no sobre) el objeto. Busca atención médica urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una mordedura de animal que no sangra mucho?",
+    "respuesta": "Lava suavemente con agua y jabón, ejerce presión ligera si sangra. Cubre con apósito limpio y consulta a un profesional de salud para evaluación de riesgo de infección o vacuna. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona está inconsciente pero respira?",
+    "respuesta": "Coloca a la persona en posición lateral de seguridad, revisa respiración periódicamente y vigila signos vitales hasta que llegue ayuda. No le des líquidos u objetos. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona está inconsciente y no respira?",
+    "respuesta": "Llama a emergencias, inicia RCP: compresiones torácicas fuertes en el centro del pecho 30:2 (30 compresiones, 2 ventilaciones) si sabes ventilar; si no, solo compresiones continuas a ritmo de 100–120 por minuto. Usa desfibrilador si hay y sabes usarlo. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo realizar RCP a un adulto (breve)?",
+    "respuesta": "Coloca el talón de la mano en el centro del pecho, entrelaza las manos y comprime 5–6 cm a ritmo de 100–120 compresiones por minuto. Si sabes ventilar, haz 30 compresiones y 2 ventilaciones. Continúa hasta que llegue ayuda o la persona reaccione. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo hacer RCP a un bebé (menor de 1 año)?",
+    "respuesta": "Coloca dos dedos en el centro del pecho y comprime 4 cm aproximadamente a ritmo de 100–120/min. Si sabes ventilar, da 2 ventilaciones suaves cubriendo nariz y boca. Haz 30 compresiones y 2 ventilaciones (si eres solo, 30:2). Busca ayuda médica urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien se atraganta y puede toser con fuerza?",
+    "respuesta": "Anima a la persona a toser y no interrumpas. Mantente atento; si la tos no expulsa el objeto y la persona empeora, actúa con maniobra de Heimlich (compresiones abdominales) si estás entrenado. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un adulto está completamente obstructado y no puede respirar?",
+    "respuesta": "Realiza la maniobra de Heimlich (compresiones abdominales) hasta expulsar el objeto o la persona pierda la conciencia. Si pierde conciencia, iníciate RCP y busca ayuda urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un bebé se atraganta y no respira?",
+    "respuesta": "Si el bebé está consciente pero no respira y no puede llorar, alterna 5 golpes en la espalda entre los omóplatos con 2–3 dedos para 5 compresiones torácicas (30:2 si es necesario), revisando la boca entre maniobras. Si pierde la conciencia, inicia RCP para bebés y pide ayuda. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien tiene una reacción alérgica leve (picazón o erupción)?",
+    "respuesta": "Retira la exposición al alérgeno si es posible, lave la zona con agua y evita rascar. Observa si empeora: dificultad para respirar, hinchazón facial o mareo requieren atención urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo reconocer y actuar ante una anafilaxia?",
+    "respuesta": "Si hay dificultad para respirar, hinchazón de cara/garganta, urticaria generalizada o pérdida de conciencia, llama a emergencias inmediatamente. Coloca a la persona recostada con las piernas elevadas si puede, vigila respiración y pulso, inicia RCP si es necesario. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien tiene dificultad respiratoria sin pérdida de conciencia?",
+    "respuesta": "Si respira pero con dificultad, siéntalo en posición cómoda (semiincorporado), afloja ropa apretada y evita movimientos bruscos. Si hay empeoramiento rápido, llama a emergencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante un ataque de asma leve conocido por la persona?",
+    "respuesta": "Ayuda a la persona a usar su inhalador de rescate si lo tiene y sigue su plan. Mantén la calma y posición semiincorporada. Si no mejora en minutos o empeora, busca atención urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer ante convulsiones por primera vez?",
+    "respuesta": "Protege a la persona de golpes quitando objetos cercanos y colocando algo blando bajo la cabeza; no sujetes ni metas objetos en la boca. Afloja ropa apretada y gira la cabeza a un lado si es seguro. Llama a emergencias si dura más de 5 minutos, hay repetición o lesiones. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona se desmaya?",
+    "respuesta": "Coloca a la persona en posición supina y eleva las piernas unos 30 cm para favorecer el retorno venoso. Afloja ropa apretada y ventila el área. Si recupera conciencia, mantén observación y busca evaluación si no recuerda el episodio. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un anciano se desmaya y no responde?",
+    "respuesta": "Revisa respiración y pulso; si no respira, inicia RCP y pide ayuda urgente. Si respira, colócalo en posición lateral de seguridad y llama a emergencias. Mantén la calma y evita movimientos bruscos del cuello o espalda. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante un golpe fuerte en la cabeza con pérdida de conciencia breve?",
+    "respuesta": "Valora respiración y pulso; si está consciente, obsérvalo por signos de confusión, vómitos o somnolencia. Busca atención médica para evaluación. Si pierde conciencia o empeora, solicita ayuda urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si hay sangrado dentro de la boca tras un golpe?",
+    "respuesta": "Si sangra, presiona con gasa limpia hasta detener el sangrado. Evita enjuagues vigorosos. Si sangrado abundante, pérdida de dientes o signos neurológicos, consulta urgencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si alguien tiene dolor intenso en el pecho?",
+    "respuesta": "Solicita ayuda médica urgente; haz que la persona se siente cómoda, afloje ropa apretada y evite esfuerzos. Vigila respiración y pulso, y prepárate para iniciar RCP si pierde la conciencia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona se quemó por inhalación de humo?",
+    "respuesta": "Si sospechas inhalación, traslada a la persona a aire fresco y observa por tos, dificultad para respirar o cambios de voz. Busca atención médica inmediata, ya que los síntomas pueden empeorar. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por radiación solar extensa (piel enrojecida)?",
+    "respuesta": "Enfría con agua corriente, mantén hidratación, protege la piel con ropa ligera y evita más exposición al sol. Si hay ampollas extensas, fiebre o signos de deshidratación, consulta con urgencia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien sufre hipotermia leve (temblor y confusión leve)?",
+    "respuesta": "Traslada a un lugar cálido, quita la ropa mojada, cubre con mantas y ofrece bebidas tibias si está consciente. Evita frotar o movimientos bruscos. Busca atención si hay empeoramiento. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante hipotermia severa (somnolencia, pulso lento)?",
+    "respuesta": "Llama a emergencias de inmediato. Evita mover excesivamente y protege a la persona del frío con mantas y calor gradual. No des líquidos calientes si está inconsciente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si hay picadura de insecto con hinchazón local?",
+    "respuesta": "Lava la zona con agua y jabón, aplica compresión fría para reducir hinchazón y eleva la extremidad si es posible. Observa por signos de reacción generalizada. Si hay dificultad para respirar o hinchazón facial, busca ayuda urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante picadura de abeja con aguijón visible?",
+    "respuesta": "Retira el aguijón raspándolo con una tarjeta o con la uña (no aprietes con pinzas), lava la zona y aplica frío local. Observe por signos de reacción alérgica generalizada y consulta si hay preocupación. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien tiene una mordedura de serpiente (posible venenosa)?",
+    "respuesta": "Mantén a la persona inmóvil, coloca la zona afectada en posición neutral por debajo del corazón si es posible, evita cortar o succionar la herida y no apliques torniquetes. Traslada rápidamente a urgencias para antídoto si corresponde. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar tras una picadura de medusa?",
+    "respuesta": "Enjuaga con agua de mar (no con agua dulce) y retira restos de tentáculos con guantes o toalla. Aplica frío local y no frotes la zona. Si hay dificultad para respirar o síntomas generales, busca ayuda urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer ante quemadura por frío (congelación) leve?",
+    "respuesta": "Calienta la zona gradualmente con agua tibia (no caliente) entre 37–40 °C hasta que la piel recupere sensibilidad. No frotes ni masajees la zona. Cubre con apósitos limpios y consulta si hay duda. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si hay intoxicación por ingestión de producto desconocido?",
+    "respuesta": "Si la persona está consciente, quita la fuente y llama inmediatamente a emergencias o al centro de toxicología local; sigue sus instrucciones. No provoques el vómito salvo indicación. Lleva el envase del producto si es posible. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si hay sospecha de sobredosis de alcohol?",
+    "respuesta": "Si está somnoliento o inconsciente y respira, colócalo en posición lateral de seguridad y vigila respiración. Si no respira, inicia RCP y pide ayuda urgente. No lo dejes solo y busca atención médica. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante un corte profundo con exposición de tejido?",
+    "respuesta": "Aplica presión directa con gasa estéril para controlar sangrado y eleva la extremidad si es posible. No intentes limpiar profundamente ni empujar tejido. Cubre con vendaje y traslada a urgencias para sutura o evaluación. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer ante una herida con cuerpo extraño incrustado (vidrio, metal)?",
+    "respuesta": "No retires el objeto; estabilízalo con vendajes para evitar movimiento y controla el sangrado alrededor. Busca atención urgente en un centro médico para extracción segura. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona tiene dolor abdominal severo repentino?",
+    "respuesta": "Valora signos de gravedad (fiebre, vómitos persistentes, sangre en heces). Evita dar alimentos o líquidos si hay dolor intenso o vómitos. Busca evaluación médica urgente para diagnóstico. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien sufre quemadura eléctrica y tiene quemaduras en piel?",
+    "respuesta": "Tras apartar la fuente segura, enjuaga la zona con agua si hay quemadura superficial; cubre con gasa estéril. Busca atención médica porque las lesiones internas pueden ser graves. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una reacción por picadura de araña con dolor local?",
+    "respuesta": "Lava la zona y aplica frío local. Observa por signos sistémicos (fiebre, dolor intenso, problemas respiratorios). Si empeora o hay síntomas generales, busca atención médica. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un diente se rompe en un accidente?",
+    "respuesta": "Si es un fragmento pequeño, enjuaga la boca con agua y aplica frío externo para la hinchazón. Si un diente permanente se ha salido, intenta conservar el diente en leche o solución salina y consulta al dentista de inmediato. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un niño tiene fiebre alta y convulsiona?",
+    "respuesta": "Coloca al niño de lado y protege la cabeza; no metas nada en la boca. Llama a emergencias de inmediato y registra duración de la convulsión. Si la convulsión dura más de 5 minutos, es una urgencia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un lactante tiene fiebre alta y está irritable?",
+    "respuesta": "Mide la temperatura y mantén al bebé hidratado, abrígalo moderadamente. Busca atención médica si es menor de 3 meses con fiebre o si la fiebre es muy alta o persistente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una ampolla grande en el pie por fricción?",
+    "respuesta": "Evita reventarla; si se rompe, limpia con agua y jabón, aplica una gasa estéril y un vendaje acolchado. Cambia el apósito si se ensucia y mantiene la zona seca. Si hay signos de infección, consulta al profesional. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si se sospecha intoxicación por alimentos (vómitos y diarrea)?",
+    "respuesta": "Mantén a la persona hidratada con pequeños sorbos de agua o solución de rehidratación, evita alimentos sólidos hasta que mejore. Busca atención si hay sangre en vómitos/heces, deshidratación o fiebre alta. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante quemadura eléctrica en casa con pérdida de conciencia?",
+    "respuesta": "Asegura la fuente de electricidad si es seguro. Si la persona no respira, inicia RCP y pide ayuda urgente. Aunque recupere conciencia, busca atención médica para evaluar daños internos. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta signos de shock (pálida, sudorosa, fría)?",
+    "respuesta": "Acuesta a la persona boca arriba, eleva las piernas si no hay lesión en columna o piernas, mantenla abrigada y calma. No le des comida ni bebida si está inconsciente. Llama a emergencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por vapor o líquidos calientes en la mano?",
+    "respuesta": "Enfría la mano con agua corriente 10–20 minutos, quita anillos o pulseras antes de que se hinche, cubre con gasa estéril sin apretar y consulta si hay pérdida de sensibilidad o extensión amplia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien tiene una reacción a un alimento y presenta urticaria generalizada?",
+    "respuesta": "Retira la exposición al alimento, observa respiración y estado general. Si hay dificultad respiratoria, hinchazón facial o mareos, llama a emergencias. Para urticaria localizada, lava la boca y observa. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona presenta signos de embolia pulmonar (dolor torácico y dificultad respiratoria súbita)?",
+    "respuesta": "Solicita ayuda médica urgente; mantiene a la persona en posición cómoda, reposo absoluto y evita esfuerzos. Esta condición requiere evaluación y tratamiento en urgencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si hay hemorragia vaginal severa después de un accidente?",
+    "respuesta": "Presiona con una gasa estéril o paño limpio y busca atención de urgencias inmediata. Mantén a la persona en reposo y controla signos vitales hasta que llegue ayuda. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura en la cara o cerca de los ojos?",
+    "respuesta": "Enfría con agua corriente evitando presión sobre los ojos; no apliques ungüentos ni cubras los ojos con gasas apretadas. Busca atención médica urgente por riesgo de daño ocular. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona no puede mover una extremidad después de un golpe grande?",
+    "respuesta": "Inmoviliza la extremidad en la posición encontrada, evita intentar alinear huesos, aplica frío alrededor para disminuir hinchazón y traslada a urgencias para imágenes y tratamiento. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si alguien se intoxicó con monóxido de carbono?",
+    "respuesta": "Traslada a la persona a aire fresco de inmediato y llama a emergencias. Si hay pérdida de conciencia, revisa respiración y pulso e inicia RCP si es necesario. La exposición puede ser silenciosa y peligrosa; busca evaluación médica. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si hay quemadura por líquido caliente en áreas extensas del cuerpo?",
+    "respuesta": "Enfría con agua corriente por al menos 20 minutos, evita quitar ropa pegada y cubre con sábanas limpias. Solicita ayuda médica urgente por extensión de la superficie quemada. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante un corte en la cabeza con pérdida de conciencia momentánea?",
+    "respuesta": "Valora respiración y pulso; si recupera conciencia, vigílalo por signos neurológicos (confusión, vómitos, somnolencia) y busca atención médica para descartar lesiones internas. Si hay sangrado activo, aplica presión. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un niño tiene un objeto metálico atascado en la nariz?",
+    "respuesta": "No intentes introducir pinzas profundo; si el objeto está visible, intenta retirarlo suavemente si es seguro. Si no sale o hay sangrado, busca atención médica. Mantén la calma y evita que el niño se meta otro dedo. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por productos domésticos (limpiadores)?",
+    "respuesta": "Enjuaga la zona con abundante agua durante 20 minutos y quita ropa contaminada. No apliques neutralizantes caseros. Busca atención médica con el envase del producto. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta laceración en la mano por vidrio y sangra mucho?",
+    "respuesta": "Presiona firmemente con gasa estéril para controlar sangrado y eleva la mano. Si el sangrado no cede o hay exposición de tendones o hueso, traslada a urgencias para cirugía y limpieza. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante un golpe en el abdomen con dolor creciente y vómitos?",
+    "respuesta": "Busca atención médica urgente; evita dar alimentos o bebidas y mantén a la persona en reposo. Observa por palidez, sudor frío o mareos que requieren traslado inmediato. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un niño traga una moneda y tose poco?",
+    "respuesta": "Si puede respirar y toser, obsérvalo y consulta al pediatra; si la tos empeora o hay dificultad respiratoria, lleva al servicio de urgencias. No intentes forzar la extracción en casa. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si hay quemadura por adhesivo o pegamento en la piel?",
+    "respuesta": "Evita arrancar la piel; remoja la zona con agua tibia y jabón para ablandar el adhesivo. Si queda adherida piel o hay dolor intenso, consulta con un profesional. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre pérdida súbita de visión en un ojo?",
+    "respuesta": "Busca atención médica urgente de inmediato; coloca a la persona en reposo y evita frotar el ojo. La pérdida súbita de visión puede requerir evaluación urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por contacto con metales calientes?",
+    "respuesta": "Enfría con agua corriente 10–20 minutos, retira anillos o prendas si se hinchan, cubre con gasa limpia y busca atención si la quemadura es extensa o en áreas funcionales. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene una intoxicación por plantas venenosas tras tocarlas?",
+    "respuesta": "Lava la piel expuesta con agua y jabón, evita rascar, y consulta a un profesional si aparece erupción extensa, vesículas o dificultad respiratoria. Lleva una muestra de la planta si es posible. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un bebé tiene sangre en la orina o en las heces?",
+    "respuesta": "Contacta a un profesional de salud de inmediato para evaluación; mantén la calma y anota otros síntomas (fiebre, vómitos) para informar. No des medicamentos sin indicación. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien sufre una quemadura por radiación térmica (explosión pequeña)?",
+    "respuesta": "Si hay quemaduras, enfría con agua corriente y cubre con apósitos limpios. Evacúa el área por seguridad y busca atención médica para valoración por inhalación y extensión de quemaduras. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una intoxicación por medicamentos (dosis desconocida)?",
+    "respuesta": "Llama a emergencias o al centro de toxicología con la información del medicamento y hora de ingestión. Sigue sus instrucciones; no induzcas el vómito salvo que lo indiquen. Lleva el envase si es posible. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene un objeto pequeño en el oído y se queja de dolor?",
+    "respuesta": "No intentes extraerlo con pinzas o hisopos. Si es visión simple y no hay dolor intenso, consulta a un profesional; si hay sangrado o dolor intenso, busca urgencias. No intentes verter agua si es orgánico (insecto). Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si alguien tiene una quemadura por contacto con químicos en los ojos?",
+    "respuesta": "Enjuaga los ojos con agua corriente abundante por al menos 20 minutos manteniendo los párpados abiertos; llama a emergencias y no esperes. Busca atención oftalmológica urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona inhaló gas irritante en un espacio cerrado?",
+    "respuesta": "Sáquela al aire fresco inmediatamente y vigile respiración y nivel de conciencia. Si hay tos persistente, dificultad para respirar o dolor torácico, busca atención médica urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una lesión por arma blanca con sangrado profundo?",
+    "respuesta": "Presiona con firmeza y de forma continua sobre la herida con gasa o paño limpio. No retires el arma si está clavada; estabilízala. Llama a emergencias y controla la respiración y pulso hasta la llegada. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un bebé está muy irritable y con petequias (manchas pequeñas) en la piel?",
+    "respuesta": "Busca atención médica urgente para evaluación, ya que puede indicar infección o problema serio. Mantén al bebé cómodo y evita demorarlo. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona presenta fiebre con rigidez de cuello y confusión?",
+    "respuesta": "Busca atención médica inmediata, ya que puede ser signo de meningitis u otra infección grave. Mantén a la persona en posición cómoda, evitando movimientos bruscos. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien tiene una clavícula fracturada tras una caída?",
+    "respuesta": "Inmoviliza el brazo en cabestrillo o con una bufanda para reducir movimiento y algo de dolor; aplica frío externo en períodos. Traslada a urgencias para radiografía y tratamiento. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por contacto con líquidos corrosivos en la boca?",
+    "respuesta": "Enjuaga la boca con abundante agua sin tragar y no induzcas vómito. Busca atención de urgencias y lleva información del producto si es posible. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene dolor de cabeza súbito y muy intenso?",
+    "respuesta": "Busca ayuda médica urgente, ya que puede ser signo de hemorragia cerebral u otra condición seria. Mantén a la persona en reposo y evita posiciones que aumenten el dolor. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si hay sospecha de aborto espontáneo con sangrado y dolor abdominal?",
+    "respuesta": "Busca atención médica de inmediato para evaluación. Si hay sangrado abundante o signos de shock, llama a emergencias. Evita automedicación y mantén al paciente en reposo. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un niño se golpea el ojo y aparece visión borrosa?",
+    "respuesta": "Protege el ojo evitando frotarlo, cubre con un parche ocular limpio sin presión y busca evaluación oftalmológica urgente. Si hay sangrado o pérdida de visión, acude a urgencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura eléctrica con marca de entrada y salida?",
+    "respuesta": "Busca atención médica urgente incluso si la piel parece menor, porque puede haber daño interno. Cubre las quemaduras con gasas estériles y vigila respiración y pulso. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta signos de infección en una herida (rojez, calor, pus)?",
+    "respuesta": "Lava suavemente alrededor y cubre con apósito limpio; consulta con un profesional para evaluar necesidad de tratamiento. Si hay fiebre, empeoramiento rápido o enrojecimiento extendido, busca atención urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un ciclista tiene heridas por abrasión extensas en la piel?",
+    "respuesta": "Lava con agua y jabón, elimina arena o residuos, aplica apósitos estériles y evita frotar. Cambia vendajes y observa por signos de infección. Consulta si la lesión es profunda o extensa. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer ante una herida por astilla profundamente incrustada?",
+    "respuesta": "No intentes perforar o empujar la astilla más adentro; si es superficial, intenta extraer con pinzas limpias; si es profunda, cubre la zona y consulta a un profesional para extracción y limpieza. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona sufre una reacción alérgica por contacto en las manos?",
+    "respuesta": "Lava las manos con agua y jabón, evita rascar y aplica compresión fría si hay hinchazón localizada. Observa por signos sistémicos y busca ayuda médica si aparecen dificultad respiratoria o hinchazón facial. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un niño tiene una herida profunda en la frente que sangra mucho?",
+    "respuesta": "Presiona con gasa limpia hasta controlar sangrado, limpia suavemente alrededor con agua, y busca atención médica para posible sutura. Mantén al niño tranquilo y controla signos de conmoción. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por contacto con objeto metálico caliente en un niño?",
+    "respuesta": "Enfría la zona con agua corriente tibia 10–20 minutos, retira ropa pegada con cuidado, cubre con gasa estéril y busca atención si afecta manos o cara o es extensa. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta dolor intenso en una articulación tras un golpe?",
+    "respuesta": "Aplica RICE: reposo, hielo (envuelto), compresión ligera y elevación. Evita mover la articulación y consulta para descartar fractura o lesión grave. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si alguien tiene un ataque de pánico y dificultad para respirar por ansiedad?",
+    "respuesta": "Mantén la calma, habla con voz tranquila, anima a respirar lenta y profundamente (4 segundos inhalar, 4 exhalar) y si es posible siéntalo en posición cómoda. Si no cede o hay sospecha de causa física, busca evaluación médica. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona se ha clavado una astilla en el pie y cojea?",
+    "respuesta": "Lava el pie, intenta retirar la astilla con pinzas limpias si es visible y superficial; si es profunda o hay sangrado persistente, cubre y consulta. Mantén la zona limpia hasta evaluación. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura química en los ojos por salpicadura?",
+    "respuesta": "Enjuaga con abundante agua durante al menos 20 minutos manteniendo los párpados abiertos y acude a urgencias oftalmológicas de inmediato. No esperes ni uses soluciones caseras. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre un golpe en el tórax y tiene dificultad para respirar?",
+    "respuesta": "Busca atención médica urgente. Colócala en posición cómoda semiincorporada, controla respiración y pulso y prepárate para RCP si pierde la conciencia. Evita moverla hasta evaluar. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona se corta con una hoja de afeitar y no para de sangrar?",
+    "respuesta": "Presiona la herida con gasa estéril firmemente por 10–15 minutos. Si no se detiene, busca atención de urgencias para posible sutura o control del sangrado. Mantén la herida limpia y cubierta. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un niño se quema con la plancha y tiene ampollas?",
+    "respuesta": "Enfría con agua corriente tibia 10–20 minutos, no revientes ampollas, cubre con gasa estéril y consulta al pediatra para valoración. Si la quemadura es en cara, manos o extensa, acude a urgencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona tiene sangrado intestinal (heces con sangre)?",
+    "respuesta": "Busca atención médica urgente; mantiene reposo y evita alimentos sólidos hasta evaluación. La presencia de sangre en heces requiere estudio profesional. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre un corte por congelación (frostbite) en los dedos y siente entumecimiento?",
+    "respuesta": "Calienta gradualmente en agua tibia (no caliente) y evita frotar. Si hay pérdida de sensibilidad o ampollas, busca atención médica. Evita exponer a frío de nuevo hasta que se evalúe. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si alguien tiene un objeto metálico en el ojo tras un taller?",
+    "respuesta": "No frote el ojo; cubre con un protector o parche sin presionar y busca atención oftalmológica urgente. Evita intentar extraer el objeto en casa. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre hipotensión súbita y mareo al ponerse de pie?",
+    "respuesta": "Hazla sentar o acostar y eleva las piernas; observa respiración y pulso. Si no mejora al cabo de minutos o hay pérdida de conciencia, busca atención médica. Evita moverla bruscamente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por aceite caliente en la cocina?",
+    "respuesta": "Enfría la zona bajo agua corriente por 10–20 minutos, quita ropa que no esté pegada y cubre con gasa estéril. Si la quemadura es extensa o en áreas sensibles, busca atención médica. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta signos de infección por mordedura (enrojecimiento, calor, fiebre)?",
+    "respuesta": "Lava la herida y cubre con apósito; busca atención médica para posible limpieza profesional y tratamiento. Si hay fiebre o extensión rápida del enrojecimiento, acude con urgencia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un niño se atraganta con juguete pequeño y no respira?",
+    "respuesta": "Si está inconsciente, inicia RCP infantil y pide ayuda urgente. Si está consciente pero no puede respirar, aplica 5 golpes entre los omóplatos seguidos de 5 compresiones torácicas hasta que salga el objeto o pierda la conciencia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre un golpe en el cuello y presenta dificultad para tragar?",
+    "respuesta": "Busca atención médica inmediata; evita mover el cuello y controla respiración y pulso. Mantén a la persona en posición cómoda y espera ayuda especializada. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una herida por arma de fuego con sangrado?",
+    "respuesta": "Presiona firmemente alrededor de la herida para controlar sangrado y usa compresión directa. No intentes extraer la bala; busca ayuda de emergencias de inmediato. Mantén la persona caliente y vigilada. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta deshidratación moderada por calor (mareos y sed intensa)?",
+    "respuesta": "Trasládala a un lugar fresco, hazla reposar y ofrécele pequeños sorbos de agua o solución de rehidratación. Evita bebidas muy frías o alcohol. Si hay confusión, vómitos persistentes o empeoramiento, busca atención médica. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una pérdida dental con sangrado en la boca de un adulto?",
+    "respuesta": "Aplica presión suave con gasa sobre la zona y enjuaga la boca con agua. Conserva el diente si es permanente en leche o solución salina y acude al dentista de urgencia. Si hay dificultad para respirar o sangrado profuso, busca atención inmediata. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene dificultad para hablar y debilidad en un lado del cuerpo (posible accidente cerebrovascular)?",
+    "respuesta": "Llama a emergencias de inmediato. Mantén a la persona cómoda, evita darle comida o bebida y anota la hora de inicio de síntomas. El tratamiento temprano es crítico. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por fricción en la piel por accidente en bicicleta?",
+    "respuesta": "Lava con agua y jabón, retira restos de tierra con cuidado, aplica apósito estéril y evita reventar ampollas. Observa por signos de infección y consulta si hay afectación extensa. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un adulto mayor cae y no puede levantarse pero no tiene dolor intenso?",
+    "respuesta": "No intentes levantarlo solo; valora signos de lesión y posición cómoda. Llama a alguien para ayudar o a emergencias si hay dolor, confusión o incapacidad para moverse. Mantente con la persona y cálmala. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona tiene un cuerpo extraño en la garganta y puede respirar parcialmente?",
+    "respuesta": "Anímala a toser; si no mejora y hay obstrucción creciente, realiza la maniobra de Heimlich si estás entrenado. Si pierde la conciencia, inicia RCP y pide ayuda urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien presenta una herida punzante en el pecho con dificultad para respirar?",
+    "respuesta": "Cubre la herida con un apósito que permita salida de aire (sellado parcial) para evitar neumotórax a tensión; busca ayuda médica urgente y controla signos vitales. Si la persona empeora, llama a emergencias inmediatamente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por ácido en manos con dolor intenso?",
+    "respuesta": "Enjuaga con abundante agua durante 20 minutos y quita joyas que puedan quedar atrapadas al hincharse. Busca atención médica urgente y lleva el envase del producto. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un niño tiene dolor y rigidez en la espalda tras una caída?",
+    "respuesta": "Evita mover al niño y mantén la cabeza y cuello alineados; llama a emergencias para valoración de posible lesión de columna. Si respira mal, inicia RCP. Evita cambios de posición hasta que llegue ayuda. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona sufre un corte con un objeto oxidado y no está vacunada recientemente?",
+    "respuesta": "Lava la herida con agua y jabón y cubre con un apósito limpio. Consulta con un profesional de salud para evaluación y posible profilaxis. Evita automedicación con remedios caseros. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta quemaduras por líquidos calientes en varias zonas del cuerpo?",
+    "respuesta": "Enfría las áreas con agua corriente 10–20 minutos, cubre con sábanas limpias y busca atención urgente si la superficie afectada es amplia, en cara, manos, pies o genitales. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si alguien tiene una reacción alérgica con hinchazón de labios y lengua?",
+    "respuesta": "Busca ayuda médica urgente; coloca a la persona en posición cómoda y vigila la respiración. Si hay dificultad para respirar, llama a emergencias y prepárate para RCP. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta heridas por explosión con pérdida de audición?",
+    "respuesta": "Protege heridas, controla sangrado y busca atención médica inmediata por posible daño auditivo y lesiones internas. Si hay pérdida de conciencia o sangrado abundante, llama a emergencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por una reacción alérgica cutánea extensa?",
+    "respuesta": "Lava suavemente la piel y aplica compresas frías para alivio. Observa por dificultad respiratoria o hinchazón facial que requieren atención urgente. Consulta con un profesional para manejo adicional. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un adolescente tiene una herida por arma blanca superficial y quiere limpiarla en casa?",
+    "respuesta": "Presiona para controlar el sangrado, limpia suavemente con agua y jabón y cubre con un apósito limpio. Sin embargo, busca evaluación médica para descartar daño profundo o necesidad de sutura. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona sufre un corte con exposición de tendón en la mano?",
+    "respuesta": "Aplica presión con gasa para controlar sangrado, inmoviliza la mano y busca atención quirúrgica urgente; evita mover los dedos y mantén la mano elevada. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si hay sospecha de fractura de muñeca tras una caída?",
+    "respuesta": "Inmoviliza con férula o tablilla improvisada, aplica frío envuelto y eleva el brazo. Evita mover el hueso y traslada a urgencias para radiografía y tratamiento. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante un golpe en la cabeza con vómitos repetidos?",
+    "respuesta": "Busca atención médica urgente; los vómitos repetidos tras un traumatismo craneal pueden indicar lesión intracraneal. Mantén a la persona en observación y evita darle alimentos hasta evaluación. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre una lesión ocular por objeto químico y tiene visión borrosa?",
+    "respuesta": "Enjuaga el ojo con abundante agua por 20 minutos y busca atención oftalmológica urgente; no uses lentes de contacto y evita frotar el ojo. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona tiene una reacción alérgica leve en la garganta pero puede respirar?",
+    "respuesta": "Observa estrechamente por empeoramiento; si hay progresión a dificultad respiratoria, hinchazón o cambios en la voz, busca atención urgente. Mantén a la persona en posición cómoda y evita esfuerzos. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un trabajador sufre amputación parcial de un dedo en un accidente laboral?",
+    "respuesta": "Controla el sangrado con presión directa y eleva la mano. Envuelve el dedo amputado en gasa húmeda, colócalo en bolsa sellada dentro de otra con hielo (no contacto directo con hielo) y traslada con urgencia a un centro que pueda evaluar reimplante. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por contacto con aceite muy caliente y la ropa prendida fuego?",
+    "respuesta": "Detén, acuesta y rueda a la persona para sofocar las llamas; cubre con manta para apagar rescoldo. Enfría las quemaduras con agua corriente y llama a emergencias si hay quemaduras extensas. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre una caída desde altura y se queja de dolor en varias zonas?",
+    "respuesta": "No la muevas si sospechas lesiones graves; controla respiración y pulso, inmoviliza cuello si hay sospecha de lesión cervical y pide ayuda médica urgente. Evita moverla sin asistencia profesional. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona presenta erupción generalizada tras tomar un medicamento?",
+    "respuesta": "Suspende el medicamento si lo indicó un profesional; busca ayuda médica para evaluar la reacción. Si aparecen dificultad para respirar, hinchazón o caída de tensión, llama a emergencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si alguien tiene un diente permanente completamente fuera de la boca tras un golpe?",
+    "respuesta": "Sostén el diente por la corona (no por la raíz), enjuágalo sin frotar y colócalo en leche o solución salina; intenta reimplantar solo si sabes cómo. Acude al dentista de urgencia; el tiempo es crítico. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura eléctrica que produce paro cardiaco?",
+    "respuesta": "Llama a emergencias y, si es seguro, desconecta la fuente eléctrica. Inicia RCP inmediatamente y usa un desfibrilador externo automático si está disponible. Continúa hasta que llegue ayuda. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre una herida en el ojo con sangrado?",
+    "respuesta": "No presiones directamente el globo ocular; cubre ambos ojos con una gasa o parche y busca atención oftalmológica urgente, evitando que la persona frote o mueva el ojo. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un niño tiene fiebre y manchas rojas por todo el cuerpo?",
+    "respuesta": "Busca evaluación médica urgente; algunas erupciones con fiebre requieren atención inmediata. Mantén al niño cómodo, bien hidratado y anota la hora de aparición de síntomas. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona está inconsciente tras ingerir drogas recreativas?",
+    "respuesta": "Comprueba respiración y pulso; si no respira inicia RCP y pide ayuda urgente. Si respira, colócala en posición lateral de seguridad y vigila signos vitales hasta que llegue ayuda. Informa a los servicios sobre la sustancia ingerida si se conoce. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una lesión por aplastamiento con dolor e hinchazón en la extremidad?",
+    "respuesta": "Inmoviliza la zona, aplica frío envuelto y eleva si es posible; controla sangrados y busca atención médica urgente para descartar daño muscular, óseo o vascular. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene heridas múltiples tras un accidente de tráfico?",
+    "respuesta": "Prioriza asegurar la escena y llamar a emergencias. Controla sangrados mayores y revisa respiración; realiza RCP si es necesario. No muevas a la persona si sospechas lesiones de columna salvo peligro inminente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona tiene una mordida humana profunda?",
+    "respuesta": "Lava suavemente, presiona si hay sangrado y cubre con apósito estéril. Consulta con un profesional; las mordidas humanas tienen alto riesgo de infección y pueden requerir tratamiento. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona rompe una ampolla en el pie y aparece pus?",
+    "respuesta": "Lava con agua y jabón, aplica un apósito estéril y consulta a un profesional para evaluar posible infección y tratamiento. Evita caminar descalzo y mantén la zona limpia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una reacción por contacto con hiedra venenosa u otras plantas similares?",
+    "respuesta": "Lava la piel expuesta con agua y jabón lo antes posible, evita rascar y aplica compresas frías para aliviar picor. Busca atención si la erupción es extensa o hay signos sistémicos. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un niño ingiere una pilha (batería) o objeto pequeño redondo?",
+    "respuesta": "Busca atención médica urgente o llama al centro de toxicología; las pilas botón son peligrosas y requieren extracción inmediata en muchos casos. No induzcas vómito. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona tiene dificultad para respirar tras exposición a cloro en piscina?",
+    "respuesta": "Sáquela al aire fresco, ofrécele respiración calmada y busca atención médica si persiste la dificultad o hay quemaduras en vías respiratorias. Evita mayor exposición. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un trabajador se quema con soldadura y tiene lesión en los ojos?",
+    "respuesta": "Enjuaga ojos con abundante agua y busca atención oftalmológica urgente. Evita frotar y retira lentes de contacto si las usa. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por líquidos calientes en el rostro de un niño pequeño?",
+    "respuesta": "Enfría con agua corriente 10–20 minutos sin mojar demasiado al niño, retira ropa pegada con cuidado y busca atención médica urgente por riesgo en zonas sensibles. Mantén al niño abrigado y calmado. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta dolor intenso de muela con inflamación y fiebre?",
+    "respuesta": "Busca atención dental o médica; mientras tanto, mantén la cabeza elevada, evita comidas calientes y enjuaga suavemente con agua salina tibia. No apliques remedios caseros invasivos. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona tiene una lesión por quemadura en la garganta tras inhalación de humo?",
+    "respuesta": "Traslada a aire fresco y busca atención médica urgente; la inhalación puede causar edema o daño en vías respiratorias aunque la piel no muestre muchas quemaduras. Si hay dificultad para respirar, llama a emergencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre hemorragia interna sospechada tras un golpe en el abdomen?",
+    "respuesta": "Llama a emergencias de inmediato; mantén a la persona en reposo y evita darle comida o bebida. Los signos incluyen dolor intenso, palidez y caída de la tensión. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una lesión por pinchazo en el pie con material sucio y dolor?",
+    "respuesta": "Lava la zona con agua y jabón, controla sangrado y consulta para evaluar riesgo de infección y necesidad de profilaxis. Evita caminar descalzo y mantén la herida cubierta. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona muestra confusión súbita y fiebre alta tras una infección?",
+    "respuesta": "Busca atención médica urgente; la confusión y la fiebre alta pueden indicar infección severa o sepsis. Mantén hidratación y registra signos vitales para informar a los profesionales. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un niño tiene una quemadura por electrocución doméstica leve?",
+    "respuesta": "Enfría la zona con agua corriente y observa por signos de lesión interna; busca evaluación médica porque los niños pueden tener daño oculto. Si hay pérdida de conciencia o arritmia, llama a emergencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta dolor y enrojecimiento alrededor de una uña (paroniquia)?",
+    "respuesta": "Mantén la zona limpia y seca; remoja en agua tibia varias veces al día y evita manipularla. Si hay pus, dolor intenso o fiebre, consulta con un profesional para tratamiento. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por inhalación de gases tóxicos en el trabajo?",
+    "respuesta": "Sáquela del área y llévala a zona con aire fresco, llama a emergencias y busca atención hospitalaria aun si los síntomas parecen leves, ya que pueden empeorar más tarde. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene una laceración en la cara con pérdida de tejido?",
+    "respuesta": "Controla el sangrado con presión y cubre con gasa estéril. Busca atención urgente para limpieza, posible sutura y evaluación estética. Evita manipular la herida más de lo necesario. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una persona con síntomas de hipotermia leve después de nadar en agua fría?",
+    "respuesta": "Sácala del agua, quítale ropa mojada, cúbrela con mantas y dale bebidas tibias si está consciente. Evita calentamiento rápido y busca evaluación si hay confusión o somnolencia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta dolor intenso tras un pinchazo con aguja y riesgo de exposición a sangre?",
+    "respuesta": "Lava la zona con agua y jabón, sangra la herida para reducir posible exposición si es una punción percutánea y busca evaluación médica para manejo de riesgo y profilaxis según protocolos. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si hay sospecha de intoxicación por hongos tras comer en el campo?",
+    "respuesta": "Busca atención médica urgente e informa sobre los síntomas y el alimento ingerido. Si es posible, conserva restos del alimento para identificación. No induzcas el vómito salvo indicación profesional. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona se corta con una hoz en el trabajo y el tendón está expuesto?",
+    "respuesta": "Presiona para controlar sangrado, inmoviliza la zona y cubre con apósito estéril. Traslada de urgencia a un centro quirúrgico para evaluación y posible reparación. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un niño se introduce agua en oído y tiene dolor intenso?",
+    "respuesta": "No intentes introducir objetos en el oído; seca con toalla y consulta a un profesional si el dolor persiste, hay secreción o pérdida de audición. Evita irrigación casera si hay perforación del tímpano. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta quemaduras por exposición prolongada al sol con fiebre y confusión?",
+    "respuesta": "Busca atención médica; enfría con compresas y líquidos si está consciente, evita más exposición y mantén hidratación. Los signos sistémicos requieren evaluación urgente. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante un corte profundo en la mano con pérdida de movilidad de los dedos?",
+    "respuesta": "Controla sangrado y estabiliza la mano; no intentes movilizar dedos. Traslada a urgencias para evaluación de tendones y posible reparación quirúrgica. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta dolor agudo en la garganta tras tragar un objeto afilado?",
+    "respuesta": "No intentes extraer el objeto; evita dar alimentos o líquidos y acude a urgencias para imagen y extracción segura. Mantén a la persona tranquila hasta la valoración. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un adulto sufre quemaduras por inhalación en un incendio doméstico?",
+    "respuesta": "Traslada a la persona a aire fresco, administra oxígeno si está disponible y busca atención médica inmediata; la inhalación puede causar daño retardado a las vías respiratorias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene una infección ocular con secreción y dolor?",
+    "respuesta": "Evita tocar o frotar el ojo, lávate las manos y consulta a un profesional para tratamiento; aplica compresas frías para aliviar molestias. Si hay empeoramiento, pérdida de visión o dolor intenso, busca urgencias oftalmológicas. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por ácido sulfúrico en el trabajo?",
+    "respuesta": "Enjuaga con abundante agua durante al menos 20 minutos, retira ropa contaminada y busca atención médica urgente llevando información del producto. Controla signos vitales hasta la llegada. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si un ciclista tiene fractura abierta con hueso visible?",
+    "respuesta": "No intentes reinsertar hueso; cubre la herida con gasa estéril y presión ligera para controlar sangrado, inmoviliza la extremidad y busca atención quirúrgica de urgencia. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona sufre un golpe severo en el pecho y pierde la conciencia en la calle?",
+    "respuesta": "Comprueba respiración y pulso; si no respira, inicia RCP y pide ayuda urgente. Si respira, colócala en posición lateral de seguridad y vigila hasta la llegada de emergencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene una quemadura por cocinar con aceite splatter y presenta dolor local?",
+    "respuesta": "Enfría la zona con agua corriente 10–20 minutos, retira ropa pegada si es seguro, cubre con gasa y consulta si la quemadura es extensa o en cara/manos. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una lesión por inhalación de gas lacrimógeno?",
+    "respuesta": "Traslada a aire fresco y enjuaga ojos y piel con agua. Evita frotar y busca atención médica si hay dificultad para respirar persistente o quemazón intensa. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona tiene una fractura de costilla y dificultad para respirar?",
+    "respuesta": "Busca atención médica urgente; aférrate a mantener calma, evita movimientos bruscos y ofrece apoyo para respirar en posición cómoda. En caso de empeoramiento, llama a emergencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si un niño tiene un corte en la lengua que sangra mucho?",
+    "respuesta": "Aplica presión con gasa limpia y enjuaga con agua. Si el sangrado no cede, busca atención de urgencias. Mantén la calma y evita que el niño trague mucha sangre. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona presenta dolor intenso en el vientre bajo y sangrado vaginal abundante?",
+    "respuesta": "Busca atención médica urgente; mantén a la persona en reposo y controla signos vitales. Evita dar medicamentos sin indicación y acude a urgencias. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una quemadura por inhalación de productos químicos domésticos?",
+    "respuesta": "Traslada a la persona a aire fresco y enjuaga piel u ojos si fueron afectados. Llama a emergencias y proporciona información sobre el producto. Evita ingestión de líquidos a menos que lo indique un profesional. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre convulsiones y está embarazada?",
+    "respuesta": "Protege a la persona de golpes, colócala de lado si es seguro y busca atención médica urgente. Anota duración de la convulsión y avisa a servicios para manejo obstétrico inmediato. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar si una persona presenta hipotermia por inmersión en agua fría y está inconsciente?",
+    "respuesta": "Llama a emergencias y realiza RCP si no respira. Mantén calor mantas y evita movimientos bruscos. Traslado urgente a hospital para reanimación y manejo especializado. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Qué hacer si una persona sufre una picadura de insecto en la garganta y tiene ronquera?",
+    "respuesta": "Busca atención médica inmediata; la inflamación en la garganta puede progresar rápidamente y dificultar la respiración. Mantén la calma y observa signos de empeoramiento. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "¿Cómo actuar ante una herida por arma blanca en el abdomen con pérdida de sangre?",
+    "respuesta": "Presiona para controlar sangrado sin introducir objetos en la herida, cubre con apósito y busca ayuda de emergencias inmediatamente. Mantén a la persona inmóvil y cálida hasta la llegada. Si el problema es grave o no mejora, busca ayuda médica inmediata."
+  },
+  {
+    "pregunta": "me duele la cabeza",
+    "respuesta": "Descansa en un lugar tranquilo, hidrátate con agua y evita pantallas o luces fuertes. Si el dolor es muy intenso, aparece de repente o se acompaña de vómitos, confusión o dificultad para hablar, busca atención médica urgente."
+  },
+  {
+    "pregunta": "tengo un fuerte dolor de cabeza",
+    "respuesta": "Hidrátate, descansa en un lugar oscuro y evita ruidos fuertes. Si el dolor es como un 'golpe' repentino, se acompaña de vómitos o es incapacitante, busca atención médica urgente."
+  },
+  {
+    "pregunta": "tengo migraña",
+    "respuesta": "Descansa en un ambiente oscuro, toma agua y evita estímulos. Si tienes medicación recetada, úsala. Si la migraña dura más de 72 horas, es distinta a las habituales o causa visión borrosa severa, consulta urgentemente."
+  },
+  {
+    "pregunta": "tengo fiebre",
+    "respuesta": "Mantén hidratación, descansa y usa ropa ligera. Aplica paños tibios en frente y cuello. Busca atención si la fiebre supera 39°C, dura más de 48 horas o se acompaña de dificultad para respirar o confusión."
+  },
+  {
+    "pregunta": "tengo tos y dolor de garganta",
+    "respuesta": "Descansa, bebe líquidos tibios y evita el frío intenso. Si tienes fiebre persistente, dificultad para respirar o dolor severo al tragar, busca atención médica."
+  },
+  {
+    "pregunta": "estoy resfriado",
+    "respuesta": "Mantén hidratación, descansa y usa vapor o duchas tibias para aliviar congestión. Busca evaluación si tienes fiebre alta, dolor en el pecho o dificultad para respirar."
+  },
+  {
+    "pregunta": "tengo gripe",
+    "respuesta": "Descansa, mantente hidratado y usa paños tibios para aliviar malestar. Consulta si aparece dificultad respiratoria, somnolencia excesiva o dolor torácico."
+  },
+  {
+    "pregunta": "me duele el estómago",
+    "respuesta": "Evita comidas pesadas, hidrátate con sorbos pequeños y descansa. Busca atención si hay fiebre, vómitos persistentes, sangre en heces o dolor que empeora."
+  },
+  {
+    "pregunta": "tengo diarrea",
+    "respuesta": "Hidrátate con agua o solución de rehidratación. Evita comidas grasosas o lácteos. Consulta si dura más de 48 horas, hay sangre o signos de deshidratación."
+  },
+  {
+    "pregunta": "estoy vomitando",
+    "respuesta": "Toma pequeños sorbos de agua y evita comida hasta mejorar. Busca atención si no puedes retener líquidos, hay sangre en el vómito o signos de deshidratación."
+  },
+  {
+    "pregunta": "tengo mareos",
+    "respuesta": "Siéntate o recuéstate, hidrátate y respira lento. Busca ayuda si los mareos se acompañan de visión doble, dificultad para hablar o debilidad repentina."
+  },
+  {
+    "pregunta": "me siento débil o cansado",
+    "respuesta": "Descansa e hidrátate. Come algo liviano si hace tiempo no ingieres alimentos. Consulta si hay fiebre, dolor en el pecho o dificultad para respirar."
+  },
+  {
+    "pregunta": "tengo dolor muscular",
+    "respuesta": "Aplica calor suave, descansa y estira suavemente. Si el dolor es intenso, repentino o se acompaña de inflamación severa, consulta."
+  },
+  {
+    "pregunta": "tengo dolor de espalda baja",
+    "respuesta": "Descansa, aplica calor local y evita levantar peso. Consulta si hay entumecimiento en piernas, pérdida de fuerza o dolor que baja al glúteo y pierna."
+  },
+  {
+    "pregunta": "tengo dolor de oído",
+    "respuesta": "Aplica calor tibio externo y evita introducir objetos. Si hay fiebre, supuración o dolor intenso, busca atención médica."
+  },
+  {
+    "pregunta": "me duele el pecho al respirar",
+    "respuesta": "Descansa, respira lento y evita esfuerzos. Busca ayuda urgente si el dolor es fuerte, punzante, empeora al mover el cuello o se acompaña de mareos o sudor frío."
+  },
+  {
+    "pregunta": "tengo dificultad para respirar",
+    "respuesta": "Siéntate inclinado hacia adelante, afloja la ropa y respira lento. Si la dificultad empeora, se acompaña de dolor en el pecho o labios azulados, pide ayuda urgente."
+  },
+  {
+    "pregunta": "siento presión en el pecho",
+    "respuesta": "Detén toda actividad, siéntate y respira despacio. Si el dolor dura más de 5 minutos, se irradia al brazo o mandíbula, o hay sudor frío, busca atención urgente."
+  },
+  {
+    "pregunta": "mi corazón late muy rápido",
+    "respuesta": "Respira profundo y lentamente. Si hay mareos, dolor en el pecho o sensación de desmayo, llama a emergencias."
+  },
+  {
+    "pregunta": "tengo debilidad repentina en un lado del cuerpo",
+    "respuesta": "Puede ser un ACV. No des comida ni bebida. Llama a emergencias de inmediato y mantén a la persona recostada."
+  },
+  {
+    "pregunta": "siento que me voy a desmayar",
+    "respuesta": "Siéntate y baja la cabeza entre las piernas, o acuéstate y eleva las piernas. Si hay dolor en el pecho, confusión o ocurre repetidamente, consulta urgente."
+  },
+  {
+    "pregunta": "me siento muy ansioso y no puedo respirar bien",
+    "respuesta": "Respira lento: 4 segundos inhalar, 4 retener, 6 exhalar. Busca un lugar tranquilo. Si no mejora o hay dolor en el pecho, consulta."
+  },
+  {
+    "pregunta": "creo que tengo hipoglucemia",
+    "respuesta": "Si estás consciente, toma una bebida azucarada o caramelos. Descansa. Si tienes desmayo, convulsiones o confusión, busca ayuda urgente."
+  },
+  {
+    "pregunta": "tengo insolación",
+    "respuesta": "Muévete a un lugar fresco, retira ropa extra y enfría la piel con agua. Bebe líquidos. Si hay confusión, vómitos o fiebre muy alta, busca ayuda urgente."
+  },
+  {
+    "pregunta": "estoy deshidratado",
+    "respuesta": "Bebe agua en pequeños sorbos o solución de rehidratación. Descansa en un lugar fresco. Consulta si hay vómitos persistentes, mareos fuertes o desmayo."
+  },
+  {
+    "pregunta": "tengo cólicos menstruales",
+    "respuesta": "Aplica calor en el abdomen, hidrátate y descansa. Si el dolor es incapacitante o distinto al habitual, consulta."
+  },
+  {
+    "pregunta": "tengo alergia leve",
+    "respuesta": "Evita el alérgeno, lava la zona afectada y usa compresas frías. Si aparece hinchazón facial o dificultad para respirar, busca ayuda urgente."
+  },
+  {
+    "pregunta": "me torcí el tobillo",
+    "respuesta": "Usa RICE: reposo, hielo 10–15 minutos, compresión ligera y elevación. Consulta si no puedes apoyar el pie o hay deformidad."
+  },
+  {
+    "pregunta": "me corté el dedo",
+    "respuesta": "Lava con agua, presiona con gasa y cubre. Si sangra mucho o es profundo, busca atención para sutura."
+  },
+  {
+    "pregunta": "me quemé cocinando",
+    "respuesta": "Enfría con agua por 10–20 minutos y cubre con gasa. No uses hielo ni cremas caseras. Consulta si hay ampollas grandes o la quemadura es extensa."
+  }
+]
